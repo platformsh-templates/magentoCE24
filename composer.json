@@ -18,6 +18,8 @@
     "require": {
         "magento/ece-tools": "^2002",
         "magento/product-community-edition": "^2.4",
+        "magento/composer-dependency-version-audit-plugin": "~0.1",
+        "magento/composer-root-update-plugin": "~2.0",
         "markshust/magento2-module-disabletwofactorauth": "*"
     },
     "autoload": {
@@ -75,12 +77,7 @@
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/magento/ece-tools.git"
         }
-
     ],
     "extra": {
         "magento-force": "override"
