@@ -8,3 +8,14 @@ https://{default}/static/:
     cache:
         enabled: true
         cookies: []
+
+https://{all}/:
+    type: upstream
+    upstream: app:http
+
+https://{all}/static/:
+    type: upstream
+    upstream: app:http
+    cache:
+        enabled: true
+        cookies: []

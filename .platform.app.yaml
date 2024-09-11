@@ -7,7 +7,7 @@
 name: app
 
 # The runtime the application uses.
-type: php:7.4
+type: php:8.3
 
 # Specify additional PHP extensions that should be loaded.
 runtime:
@@ -15,12 +15,10 @@ runtime:
     - xsl
     - sodium
     - redis
-    - xsl
-    - json
 
 # Configuration of the build of this application.
 build:
-    flavor: composer
+    flavor: none
 
 dependencies:
     php:
