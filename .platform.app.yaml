@@ -30,9 +30,9 @@ dependencies:
 # to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
-    database: db:mysql
+    database: db:mariadb
     redis: cache:redis
-    elasticsearch: indexer:elasticsearch
+    opensearch: indexer:opensearch
     rabbitmq: queue:rabbitmq
 
 # The size of the persistent disk of the application (in MB).
