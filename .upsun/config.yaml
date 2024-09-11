@@ -112,12 +112,12 @@ services:
     type: rabbitmq:3.13
     disk: 1024
 routes:
-    https://{default}/:
-        type: upstream
-        upstream: app:http
-    https://{default}/static/:
-        type: upstream
-        upstream: app:http
-        cache:
-            enabled: true
-            cookies: []
+  https://{default}/:
+    type: upstream
+    upstream: app:http
+  https://{default}/static/:
+    type: upstream
+    upstream: app:http
+    cache:
+      enabled: true
+      cookies: []
