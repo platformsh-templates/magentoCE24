@@ -57,6 +57,7 @@ mounts:
 hooks:
   build: |
     set -e
+    composer install --no-dev --no-interaction
     php ./vendor/bin/ece-tools build:generate
     php ./vendor/bin/ece-tools build:transfer
   deploy: |
