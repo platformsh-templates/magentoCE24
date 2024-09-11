@@ -77,7 +77,7 @@
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
-        }
+        },
         {
             "type": "git",
             "url": "https://github.com/magento/ece-tools.git"
