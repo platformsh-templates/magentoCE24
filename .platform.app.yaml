@@ -65,7 +65,7 @@ hooks:
     fi
     #prep node as per https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/configure-npm-to-be-able-to-use-pwa-studio
     unset NPM_CONFIG_PREFIX
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | sed 's/curl --/curl --retry 5 --/g' | dash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | sed 's/curl --/curl --retry 5 --/g' | bash
     export NVM_DIR="$PLATFORM_APP_DIR/.nvm"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
     nvm current
