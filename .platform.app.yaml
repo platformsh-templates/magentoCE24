@@ -101,17 +101,23 @@ web:
             rules:
                 \.(css|js|map|hbs|gif|jpe?g|png|tiff|wbmp|ico|jng|bmp|svgz|midi?|mp?ga|mp2|mp3|m4a|ra|weba|3gpp?|mp4|mpe?g|mpe|ogv|mov|webm|flv|mng|asx|asf|wmv|avi|ogx|swf|jar|ttf|eot|woff|otf|html?)$:
                     allow: true
+                ^/sitemap(.*)\.xml$:
+                    passthru: "/media/sitemap$1.xml"
+                ^/.well-known/apple-developer-merchantid-domain-association.xml$:
+                    passthru: "/media/apple-developer-merchantid-domain-association.xml"
+                ^/.well-known/apple-developer-merchantid-domain-association.txt$:
+                    passthru: "/media/apple-developer-merchantid-domain-association.txt"
         "/media":
             root: "pub/media"
             allow: true
             scripts: false
-            expires: 1y
+            expires: 30d
             passthru: "/get.php"
         "/static":
             root: "pub/static"
             allow: true
             scripts: false
-            expires: 1y
+            expires: 30d
             passthru: "/front-static.php"
             rules:
                 ^/static/version\d+/(?<resource>.*)$:
