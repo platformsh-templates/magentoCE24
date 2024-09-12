@@ -1,1 +1,6 @@
 export MAGENTO_CLOUD_LOCKS_DIR=$PLATFORM_LOCKS_DIR
+#as per https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/configure-npm-to-be-able-to-use-pwa-studio
+unset NPM_CONFIG_PREFIX
+export NO_UPDATE_NOTIFIER=1
+export NVM_DIR="$PLATFORM_APP_DIR/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
