@@ -52,14 +52,24 @@ dependencies:
 # to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
-    database: db:mysql
-    redis: cache:redis
+    database: 
+      service: db
+      endpoint: write
+    database-slave: 
+      service: db
+      endpoint: read
+    redis:
+        service: cache
+        endpoint: redis
+    redis-slave:
+        service: cache
+        endpoint: redis-replica
     redis-session: session:redis
     opensearch: indexer:opensearch
     rabbitmq: queue:rabbitmq
 
 # The size of the persistent disk of the application (in MB).
-disk: 2048
+disk: 1024
 
 # The 'mounts' describe writable, persistent filesystem mounts in the application.
 mounts:
