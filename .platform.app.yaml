@@ -15,6 +15,28 @@ runtime:
     - xsl
     - sodium
     - redis
+    - blackfire
+
+# The environmental variables and PHP variables the application uses.
+variables:
+    env:
+        NVM_VERSION: MASTER
+        NODE_VERSION: 20
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOGINVENTORY_STOCK__SIMPLE: 200
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOG_CATEGORY_PRODUCT: 666
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOGSEARCH_FULLTEXT__PARTIAL_REINDEX: 100
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOGSEARCH_FULLTEXT__MYSQL_GET: 500
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOGSEARCH_FULLTEXT__ELASTIC_SAVE: 500
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOG_PRODUCT_PRICE__SIMPLE: 200
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOG_PRODUCT_PRICE__DEFAULT: 500
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOG_PRODUCT_PRICE__CONFIGURABLE: 666
+        MAGENTO_INDEXER_BATCH_SIZE__CATALOGPERMISSIONS_CATEGORY: 999
+        MAGENTO_INDEXER_BATCH_SIZE__INVENTORY__SIMPLE: 210
+        MAGENTO_INDEXER_BATCH_SIZE__INVENTORY__DEFAULT: 510
+        MAGENTO_INDEXER_BATCH_SIZE__INVENTORY__CONFIGURABLE: 616
+    php:
+        memory_limit: "512M"
+
 
 # Configuration of the build of this application.
 build:
@@ -65,11 +87,16 @@ hooks:
     fi
     #prep node as per https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/configure-npm-to-be-able-to-use-pwa-studio
     unset NPM_CONFIG_PREFIX
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | sed 's/curl --/curl --retry 5 --/g' | bash
     export NVM_DIR="$PLATFORM_APP_DIR/.nvm"
+    # install.sh will automatically install NodeJS based on the presence of $NODE_VERSION
+    curl -f -o- https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_VERSION/install.sh | bash
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-    nvm current
-    nvm install 18
+    npm -v
+    nvm install $NODE_VERSION
+    echo 'unset NPM_CONFIG_PREFIX' >> .environment
+    echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
+    echo 'export NVM_DIR="$PLATFORM_APP_DIR/.nvm"' >> .environment
+    echo '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> .environment
     #install php application
     composer install --no-dev --no-interaction
     php ./vendor/bin/ece-tools build:generate
