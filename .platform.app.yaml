@@ -20,7 +20,7 @@ runtime:
 # The environmental variables and PHP variables the application uses.
 variables:
     env:
-        NVM_VERSION: MASTER
+        NVM_VERSION: master
         NODE_VERSION: 20
         MAGENTO_INDEXER_BATCH_SIZE__CATALOGINVENTORY_STOCK__SIMPLE: 200
         MAGENTO_INDEXER_BATCH_SIZE__CATALOG_CATEGORY_PRODUCT: 666
