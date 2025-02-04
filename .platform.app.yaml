@@ -22,6 +22,7 @@ variables:
     env:
         NVM_VERSION: master
         NODE_VERSION: 20
+        #https://developer.adobe.com/commerce/php/development/components/indexing/optimization/
         MAGENTO_INDEXER_BATCH_SIZE__CATALOGINVENTORY_STOCK__SIMPLE: 200
         MAGENTO_INDEXER_BATCH_SIZE__CATALOG_CATEGORY_PRODUCT: 666
         MAGENTO_INDEXER_BATCH_SIZE__CATALOGSEARCH_FULLTEXT__PARTIAL_REINDEX: 100
@@ -61,6 +62,7 @@ relationships:
     redis:
         service: cache
         endpoint: redis
+    #redis-slave will not be presented on single node clusters    
     redis-slave:
         service: cache
         endpoint: redis-replica
