@@ -49,5 +49,5 @@ The following changes have been made relative to Magento 2 as it is downloaded f
 
 ## References
 
-* [Magento](https://magento.com/)
+* [Adobe Commerce Docs](https://experienceleague.adobe.com/en/docs/commerce)
 * [PHP on Platform.sh](https://docs.platform.sh/languages/php.html)
