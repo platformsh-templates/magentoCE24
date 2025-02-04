@@ -15,7 +15,7 @@ Magento is a fully integrated ecommerce system and web store written in PHP.  Th
 * PHP 8.3
 * MariaDB 10.6
 * Redis 7.2
-* Opensearch
+* Opensearch 2
 * RabbitMQ 3.13
 * Automatic TLS certificates
 * Composer-based build
