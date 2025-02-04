@@ -70,9 +70,9 @@ applications:
             "/pub/static":
                 source: storage
                 source_path: "static"
-            "/var/reports":
+            "/var/report":
                 source: tmp
-                source_path: "reports"
+                source_path: "report"
         # The hooks executed at various points in the lifecycle of the application.
         hooks:
             build: |
