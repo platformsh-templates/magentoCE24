@@ -61,7 +61,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://repo.mage-os.org/"
+            "url": "https://mirror.mage-os.org/"
         }
     ],
     "extra": {
