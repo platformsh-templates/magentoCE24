@@ -108,6 +108,7 @@ hooks:
     composer install --no-dev --no-interaction
     php ./vendor/bin/ece-tools build:generate
     php ./vendor/bin/ece-tools build:transfer
+    sed -i 's/_process>1<\/use_/_process>0<\/use_/g' ${PLATFORM_APP_DIR}/vendor/magento/*/etc/cron_groups.xml
   deploy: |
     set -e
     php ./vendor/bin/ece-tools deploy
