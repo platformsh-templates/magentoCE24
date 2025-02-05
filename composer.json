@@ -68,6 +68,9 @@
     "conflict": {
         "gene/bluefoot": "*"
     },
+    "suggest": {
+        "ext-pcntl": "Need for run processes in parallel mode"
+    },
     "autoload-dev": {
         "psr-4": {
             "Magento\\PhpStan\\": "dev/tests/static/framework/Magento/PhpStan/",
