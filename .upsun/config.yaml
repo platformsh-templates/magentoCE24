@@ -95,11 +95,9 @@ applications:
               php ./vendor/bin/ece-tools build:generate
               php ./vendor/bin/ece-tools build:transfer
             deploy: |
-              set -e
-              php ./vendor/bin/ece-tools deploy
+              php ./vendor/bin/ece-tools run scenario/deploy.xml
             post_deploy: |
-              set -e
-              php ./vendor/bin/ece-tools post-deploy
+              php ./vendor/bin/ece-tools run scenario/post-deploy.xml
         # The configuration of scheduled execution.
         crons:
             magento:
