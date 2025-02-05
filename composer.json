@@ -21,7 +21,8 @@
         "fastly/magento2": "*",
         "magento/composer-root-update-plugin": "*",
         "markshust/magento2-module-disabletwofactorauth": "*",
-        "swissup/theme-frontend-breeze-evolution": "*"
+        "swissup/theme-frontend-breeze-evolution": "*",
+        "n98/magerun2-dist": "*"
     },
     "autoload": {
         "exclude-from-classmap": [
