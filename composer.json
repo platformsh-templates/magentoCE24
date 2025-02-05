@@ -20,7 +20,8 @@
         "magento/product-community-edition": "^2.4",
         "fastly/magento2": "*",
         "magento/composer-root-update-plugin": "*",
-        "markshust/magento2-module-disabletwofactorauth": "*"
+        "markshust/magento2-module-disabletwofactorauth": "*",
+        "swissup/theme-frontend-breeze-evolution": "*"
     },
     "autoload": {
         "exclude-from-classmap": [
