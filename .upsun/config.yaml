@@ -8,6 +8,7 @@ applications:
                 - xsl
                 - sodium
                 - redis
+                - blackfire
         variables:
             env:
                 NVM_VERSION: master
