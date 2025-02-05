@@ -24,9 +24,9 @@ Magento is a fully integrated ecommerce system and web store written in PHP.  Th
 
 1. Get your Magento Repository authentication keys https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html if you want to adjust the composer repo to https://repo.magento.com/
 2. Add your keys as a project level variable `platform variable:create -p <your Platform.sh projectID> --level project --name env:COMPOSER_AUTH --json true --visible-runtime false --sensitive true --visible-build true  --value '{"http-basic":{"repo.magento.com":{"username":"<your public key>","password":"<your private key>"}}}'`
-3. Replace https://mirror.mage-os.org/ in the composer.json with the https://repo.magento.com/ 
-4. Please add an admin user using `php bin/magento admin:user:create`.  Login at `/admin` in your browser. 
-5. If you need to disable Magento two factor auth for admin logins on development enviroments with mail disabled, please SSH into your application and run `bin/magento config:set twofactorauth/general/enable 0` 
+3. Replace https://mirror.mage-os.org/ in the composer.json with the https://repo.magento.com/
+4. Please disable Magento two factor auth for admin logins on development enviroments with mail disabled, please SSH into your application and run `bin/magento config:set twofactorauth/general/enable 0` 
+5. Please add an admin user using `php bin/magento admin:user:create`.  Login at `/admin` in your browser. 
 
 ## Customizations
 
