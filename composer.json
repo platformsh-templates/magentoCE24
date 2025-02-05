@@ -62,7 +62,11 @@
         {
             "type": "composer",
             "url": "https://mirror.mage-os.org/"
-        }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento/ece-tools"
+        }        
     ],
     "extra": {
         "magento-force": "override"
