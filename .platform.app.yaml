@@ -92,11 +92,6 @@ mounts:
 hooks:
   build: |
     set -e
-    if [ "${COMPOSER_AUTH#*"repo.magento.com"}" = "$COMPOSER_AUTH" ]
-    then
-      printf "\n!!!\n Please configure your COMPOSER_AUTH enviromental variable as per the README file \n!!!\n"
-      exit 1
-    fi
     #prep node as per https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/configure-npm-to-be-able-to-use-pwa-studio
     unset NPM_CONFIG_PREFIX
     export NVM_DIR="$PLATFORM_APP_DIR/.nvm"
