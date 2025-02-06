@@ -2,6 +2,9 @@ db:
     type: mariadb:10.6
     disk: 1500
     configuration:
+      properties:
+        optimizer_switch: "rowid_filter=off"
+        optimizer_use_condition_selectivity: 1
       schemas:
         - main
       endpoints:
