@@ -54,16 +54,16 @@ dependencies:
 # to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
-    database: 
+    database:
       service: db
       endpoint: write
-    database-slave: 
+    database-slave:
       service: db
       endpoint: read
     redis:
         service: cache
         endpoint: redis
-    #redis-slave will not be presented on single node clusters    
+    #redis-slave will not be presented on single node clusters
     redis-slave:
         service: cache
         endpoint: redis-replica
@@ -164,3 +164,9 @@ web:
             rules:
                 ^/static/version\d+/(?<resource>.*)$:
                     passthru: "/static/$resource"
+
+source:
+  operations:
+    auto-update:
+      command: |
+        curl -fsS https://raw.githubusercontent.com/platformsh/source-operations/main/setup.sh | { bash /dev/fd/3 sop-autoupdate; } 3<&0
