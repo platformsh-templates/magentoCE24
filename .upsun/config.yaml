@@ -9,6 +9,9 @@ applications:
                 - sodium
                 - redis
                 - blackfire
+        
+        container_profile: BALANCED
+        
         variables:
             env:
                 NVM_VERSION: master
