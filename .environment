@@ -1,1 +1,2 @@
+# Needed to set the "lock provider" to file instead of db in app/etc/env.php - https://github.com/platformsh-templates/magentoCE24/issues/18
 export MAGENTO_CLOUD_LOCKS_DIR=$PLATFORM_LOCKS_DIR
