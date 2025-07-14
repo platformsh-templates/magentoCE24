@@ -8,9 +8,12 @@
     ],
     "config": {
         "allow-plugins": {
+            "composer/installers": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "laminas/laminas-dependency-plugin": true,
-            "magento/*": true
+            "magento/*": true,
+            "php-http/discovery": true,
+            "symfony/flex": true
         },
         "preferred-install": "dist",
         "sort-packages": true
