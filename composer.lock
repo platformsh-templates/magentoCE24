@@ -4773,16 +4773,16 @@
         },
         {
             "name": "laminas/laminas-view",
-            "version": "2.39.0",
+            "version": "2.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-view.git",
-                "reference": "673f56af99b1780dc6babc3028d75724177969ed"
+                "reference": "ab63fd76444941e92c5ef1ed0ac59366b4fe9330"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-view/zipball/673f56af99b1780dc6babc3028d75724177969ed",
-                "reference": "673f56af99b1780dc6babc3028d75724177969ed",
+                "url": "https://api.github.com/repos/laminas/laminas-view/zipball/ab63fd76444941e92c5ef1ed0ac59366b4fe9330",
+                "reference": "ab63fd76444941e92c5ef1ed0ac59366b4fe9330",
                 "shasum": ""
             },
             "require": {
@@ -4807,10 +4807,10 @@
             },
             "require-dev": {
                 "laminas/laminas-authentication": "^2.18",
-                "laminas/laminas-coding-standard": "~3.0.1",
-                "laminas/laminas-feed": "^2.23",
-                "laminas/laminas-filter": "^2.40",
-                "laminas/laminas-http": "^2.21",
+                "laminas/laminas-coding-standard": "~3.1.0",
+                "laminas/laminas-feed": "^2.24.0",
+                "laminas/laminas-filter": "^2.41",
+                "laminas/laminas-http": "^2.22",
                 "laminas/laminas-i18n": "^2.30.0",
                 "laminas/laminas-modulemanager": "^2.17",
                 "laminas/laminas-mvc": "^3.8.0",
@@ -4821,9 +4821,9 @@
                 "laminas/laminas-permissions-acl": "^2.17",
                 "laminas/laminas-router": "^3.14.0",
                 "laminas/laminas-uri": "^2.13",
-                "phpunit/phpunit": "^10.5.45",
+                "phpunit/phpunit": "^10.5.48",
                 "psalm/plugin-phpunit": "^0.19.5",
-                "vimeo/psalm": "^6.10.1"
+                "vimeo/psalm": "^6.13.0"
             },
             "suggest": {
                 "laminas/laminas-authentication": "Laminas\\Authentication component",
@@ -4871,7 +4871,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2025-04-30T08:01:59+00:00"
+            "time": "2025-07-29T10:45:12+00:00"
         },
         {
             "name": "league/flysystem",
