@@ -183,16 +183,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.352.1",
+            "version": "3.352.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d25aec970dbf6af823b30d11d5c8cd73ef8a0a4c"
+                "reference": "695daa607b6770e426613453f04f4a82f1555887"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d25aec970dbf6af823b30d11d5c8cd73ef8a0a4c",
-                "reference": "d25aec970dbf6af823b30d11d5c8cd73ef8a0a4c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/695daa607b6770e426613453f04f4a82f1555887",
+                "reference": "695daa607b6770e426613453f04f4a82f1555887",
                 "shasum": ""
             },
             "require": {
@@ -274,9 +274,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.352.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.352.2"
             },
-            "time": "2025-08-04T18:19:17+00:00"
+            "time": "2025-08-05T18:15:51+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -20193,16 +20193,16 @@
         },
         {
             "name": "opensearch-project/opensearch-php",
-            "version": "2.4.3",
+            "version": "2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opensearch-project/opensearch-php.git",
-                "reference": "db138f27996e18b1ef8f915dba5e2ecc0caeb357"
+                "reference": "ae23da4b49a002c1d57f7f86bf89ccdef0033138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/db138f27996e18b1ef8f915dba5e2ecc0caeb357",
-                "reference": "db138f27996e18b1ef8f915dba5e2ecc0caeb357",
+                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/ae23da4b49a002c1d57f7f86bf89ccdef0033138",
+                "reference": "ae23da4b49a002c1d57f7f86bf89ccdef0033138",
                 "shasum": ""
             },
             "require": {
@@ -20271,9 +20271,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opensearch-project/opensearch-php/issues",
-                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.4.3"
+                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.4.4"
             },
-            "time": "2025-03-10T06:56:21+00:00"
+            "time": "2025-08-05T08:23:07+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
