@@ -183,16 +183,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.352.3",
+            "version": "3.352.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "89537fbca9f70ebb3b01c761e8cef933df09d046"
+                "reference": "d3ce2a85687d55cd67d52682306227bc6aa836d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/89537fbca9f70ebb3b01c761e8cef933df09d046",
-                "reference": "89537fbca9f70ebb3b01c761e8cef933df09d046",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d3ce2a85687d55cd67d52682306227bc6aa836d6",
+                "reference": "d3ce2a85687d55cd67d52682306227bc6aa836d6",
                 "shasum": ""
             },
             "require": {
@@ -274,9 +274,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.352.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.352.4"
             },
-            "time": "2025-08-06T18:16:28+00:00"
+            "time": "2025-08-07T18:15:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1904,22 +1904,23 @@
         },
         {
             "name": "ezimuel/guzzlestreams",
-            "version": "3.1.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/guzzlestreams.git",
-                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997"
+                "reference": "903161be81e9f497cc42fb7db982404a4e6441b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/b4b5a025dfee70d6cd34c780e07330eb93d5b997",
-                "reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997",
+                "url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/903161be81e9f497cc42fb7db982404a4e6441b0",
+                "reference": "903161be81e9f497cc42fb7db982404a4e6441b0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=7.4.0"
             },
             "require-dev": {
+                "phpstan/phpstan": "^2.1",
                 "phpunit/phpunit": "~9.0"
             },
             "type": "library",
@@ -1951,26 +1952,26 @@
                 "stream"
             ],
             "support": {
-                "source": "https://github.com/ezimuel/guzzlestreams/tree/3.1.0"
+                "source": "https://github.com/ezimuel/guzzlestreams/tree/4.1.0"
             },
-            "time": "2022-10-24T12:58:50+00:00"
+            "time": "2025-08-05T06:44:46+00:00"
         },
         {
             "name": "ezimuel/ringphp",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezimuel/ringphp.git",
-                "reference": "5e4ee1dfc7a323b87873b83f17c69c76ba047793"
+                "reference": "bc983599ec7add50c00e420e867c403c8ed16ae7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/5e4ee1dfc7a323b87873b83f17c69c76ba047793",
-                "reference": "5e4ee1dfc7a323b87873b83f17c69c76ba047793",
+                "url": "https://api.github.com/repos/ezimuel/ringphp/zipball/bc983599ec7add50c00e420e867c403c8ed16ae7",
+                "reference": "bc983599ec7add50c00e420e867c403c8ed16ae7",
                 "shasum": ""
             },
             "require": {
-                "ezimuel/guzzlestreams": "^3.0.1",
+                "ezimuel/guzzlestreams": "^3.0.1 || ^4.0.0",
                 "php": ">=5.4.0",
                 "react/promise": "^2.0 || ^3.0"
             },
@@ -2008,9 +2009,9 @@
             ],
             "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
             "support": {
-                "source": "https://github.com/ezimuel/ringphp/tree/1.3.0"
+                "source": "https://github.com/ezimuel/ringphp/tree/1.4.0"
             },
-            "time": "2025-02-24T10:29:27+00:00"
+            "time": "2025-08-07T09:30:38+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -4773,16 +4774,16 @@
         },
         {
             "name": "laminas/laminas-view",
-            "version": "2.40.0",
+            "version": "2.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-view.git",
-                "reference": "ab63fd76444941e92c5ef1ed0ac59366b4fe9330"
+                "reference": "77bb5814062fb485dc67baa22ea4b83cc93f7e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-view/zipball/ab63fd76444941e92c5ef1ed0ac59366b4fe9330",
-                "reference": "ab63fd76444941e92c5ef1ed0ac59366b4fe9330",
+                "url": "https://api.github.com/repos/laminas/laminas-view/zipball/77bb5814062fb485dc67baa22ea4b83cc93f7e1d",
+                "reference": "77bb5814062fb485dc67baa22ea4b83cc93f7e1d",
                 "shasum": ""
             },
             "require": {
@@ -4871,7 +4872,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2025-07-29T10:45:12+00:00"
+            "time": "2025-08-07T08:55:27+00:00"
         },
         {
             "name": "league/flysystem",
@@ -5235,16 +5236,16 @@
         },
         {
             "name": "magento/ece-tools",
-            "version": "2002.2.6",
+            "version": "2002.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/ece-tools.git",
-                "reference": "7a543eacaa618bf3e4ca46d074d3702a4423f04e"
+                "reference": "7867bd4f4e38c235132a549caf891593b19436a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/ece-tools/zipball/7a543eacaa618bf3e4ca46d074d3702a4423f04e",
-                "reference": "7a543eacaa618bf3e4ca46d074d3702a4423f04e",
+                "url": "https://api.github.com/repos/magento/ece-tools/zipball/7867bd4f4e38c235132a549caf891593b19436a5",
+                "reference": "7867bd4f4e38c235132a549caf891593b19436a5",
                 "shasum": ""
             },
             "require": {
@@ -5351,10 +5352,10 @@
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
             "support": {
-                "source": "https://github.com/magento/ece-tools/tree/2002.2.6",
+                "source": "https://github.com/magento/ece-tools/tree/2002.2.7",
                 "issues": "https://github.com/magento/ece-tools/issues"
             },
-            "time": "2025-06-03T12:25:07+00:00"
+            "time": "2025-08-06T10:41:21+00:00"
         },
         {
             "name": "magento/framework",
@@ -5794,16 +5795,16 @@
         },
         {
             "name": "magento/magento-cloud-components",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-cloud-components.git",
-                "reference": "c8414947f3c4fabf10f28c234949a38d1441b463"
+                "reference": "27c25757d118597944c90a424d9243d6ed3fd0b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-cloud-components/zipball/c8414947f3c4fabf10f28c234949a38d1441b463",
-                "reference": "c8414947f3c4fabf10f28c234949a38d1441b463",
+                "url": "https://api.github.com/repos/magento/magento-cloud-components/zipball/27c25757d118597944c90a424d9243d6ed3fd0b7",
+                "reference": "27c25757d118597944c90a424d9243d6ed3fd0b7",
                 "shasum": ""
             },
             "require": {
@@ -5870,23 +5871,23 @@
             },
             "description": "Cloud Components Module for Magento 2.x",
             "support": {
-                "source": "https://github.com/magento/magento-cloud-components/tree/1.1.2",
+                "source": "https://github.com/magento/magento-cloud-components/tree/1.1.3",
                 "issues": "https://github.com/magento/magento-cloud-components/issues"
             },
-            "time": "2025-06-03T13:12:12+00:00"
+            "time": "2025-08-06T10:33:10+00:00"
         },
         {
             "name": "magento/magento-cloud-docker",
-            "version": "1.4.3",
+            "version": "1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-cloud-docker.git",
-                "reference": "1c21dac0c0f5b867d546b5ad94beff671312fecd"
+                "reference": "038920ed401d956a3bb5883addbe16a379a55051"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-cloud-docker/zipball/1c21dac0c0f5b867d546b5ad94beff671312fecd",
-                "reference": "1c21dac0c0f5b867d546b5ad94beff671312fecd",
+                "url": "https://api.github.com/repos/magento/magento-cloud-docker/zipball/038920ed401d956a3bb5883addbe16a379a55051",
+                "reference": "038920ed401d956a3bb5883addbe16a379a55051",
                 "shasum": ""
             },
             "require": {
@@ -6003,23 +6004,23 @@
             ],
             "description": "Magento Cloud Docker",
             "support": {
-                "source": "https://github.com/magento/magento-cloud-docker/tree/1.4.3",
+                "source": "https://github.com/magento/magento-cloud-docker/tree/1.4.4",
                 "issues": "https://github.com/magento/magento-cloud-docker/issues"
             },
-            "time": "2025-06-03T12:47:32+00:00"
+            "time": "2025-08-06T10:16:08+00:00"
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.1.9",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-cloud-patches.git",
-                "reference": "0b67038c8c1254b7357503b7fdedcffce5693e0a"
+                "reference": "cf76731199d90ca2d864be517cbdddf5a22e3b0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-cloud-patches/zipball/0b67038c8c1254b7357503b7fdedcffce5693e0a",
-                "reference": "0b67038c8c1254b7357503b7fdedcffce5693e0a",
+                "url": "https://api.github.com/repos/magento/magento-cloud-patches/zipball/cf76731199d90ca2d864be517cbdddf5a22e3b0a",
+                "reference": "cf76731199d90ca2d864be517cbdddf5a22e3b0a",
                 "shasum": ""
             },
             "require": {
@@ -6079,10 +6080,10 @@
             ],
             "description": "Provides critical fixes for Magento 2 Enterprise Edition",
             "support": {
-                "source": "https://github.com/magento/magento-cloud-patches/tree/1.1.9",
+                "source": "https://github.com/magento/magento-cloud-patches/tree/1.1.10",
                 "issues": "https://github.com/magento/magento-cloud-patches/issues"
             },
-            "time": "2025-06-09T11:01:59+00:00"
+            "time": "2025-08-06T10:25:44+00:00"
         },
         {
             "name": "magento/magento-composer-installer",
