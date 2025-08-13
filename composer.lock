@@ -183,16 +183,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.352.7",
+            "version": "3.353.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "26d8988376984e4684c497e71722a97b79aeef4e"
+                "reference": "73a28b9be8b465af1dd02b6a1b23fca4b145c36b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/26d8988376984e4684c497e71722a97b79aeef4e",
-                "reference": "26d8988376984e4684c497e71722a97b79aeef4e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/73a28b9be8b465af1dd02b6a1b23fca4b145c36b",
+                "reference": "73a28b9be8b465af1dd02b6a1b23fca4b145c36b",
                 "shasum": ""
             },
             "require": {
@@ -274,9 +274,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.352.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.353.0"
             },
-            "time": "2025-08-12T18:29:26+00:00"
+            "time": "2025-08-13T18:05:58+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -1607,16 +1607,16 @@
         },
         {
             "name": "duosecurity/duo_universal_php",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/duosecurity/duo_universal_php.git",
-                "reference": "a2852c46949a2de9ca6da908e4353a81c61b43a3"
+                "reference": "4ee7253863d84653a60a8cad4b03aa3b66fcfd35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duosecurity/duo_universal_php/zipball/a2852c46949a2de9ca6da908e4353a81c61b43a3",
-                "reference": "a2852c46949a2de9ca6da908e4353a81c61b43a3",
+                "url": "https://api.github.com/repos/duosecurity/duo_universal_php/zipball/4ee7253863d84653a60a8cad4b03aa3b66fcfd35",
+                "reference": "4ee7253863d84653a60a8cad4b03aa3b66fcfd35",
                 "shasum": ""
             },
             "require": {
@@ -1644,9 +1644,9 @@
             "support": {
                 "email": "support@duosecurity.com",
                 "issues": "https://github.com/duosecurity/duo_universal_php/issues",
-                "source": "https://github.com/duosecurity/duo_universal_php/tree/1.1.0"
+                "source": "https://github.com/duosecurity/duo_universal_php/tree/1.1.1"
             },
-            "time": "2025-03-05T18:33:28+00:00"
+            "time": "2025-08-13T14:05:56+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -20136,16 +20136,16 @@
         },
         {
             "name": "open-telemetry/context",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opentelemetry-php/context.git",
-                "reference": "4d5d98f1d4311a55b8d07e3d4c06d2430b4e6efc"
+                "reference": "438f71812242db3f196fb4c717c6f92cbc819be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opentelemetry-php/context/zipball/4d5d98f1d4311a55b8d07e3d4c06d2430b4e6efc",
-                "reference": "4d5d98f1d4311a55b8d07e3d4c06d2430b4e6efc",
+                "url": "https://api.github.com/repos/opentelemetry-php/context/zipball/438f71812242db3f196fb4c717c6f92cbc819be6",
+                "reference": "438f71812242db3f196fb4c717c6f92cbc819be6",
                 "shasum": ""
             },
             "require": {
@@ -20191,7 +20191,7 @@
                 "issues": "https://github.com/open-telemetry/opentelemetry-php/issues",
                 "source": "https://github.com/open-telemetry/opentelemetry-php"
             },
-            "time": "2025-08-04T03:25:06+00:00"
+            "time": "2025-08-13T01:12:00+00:00"
         },
         {
             "name": "opensearch-project/opensearch-php",
@@ -26253,16 +26253,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.22.2",
+            "version": "v15.22.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "c96729a95e3d84fa1d1f9f390b0809c0e7a88ea1"
+                "reference": "fbb26cecdaf1ec043be563c6ba2567227699c461"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/c96729a95e3d84fa1d1f9f390b0809c0e7a88ea1",
-                "reference": "c96729a95e3d84fa1d1f9f390b0809c0e7a88ea1",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/fbb26cecdaf1ec043be563c6ba2567227699c461",
+                "reference": "fbb26cecdaf1ec043be563c6ba2567227699c461",
                 "shasum": ""
             },
             "require": {
@@ -26315,7 +26315,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.22.2"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.22.3"
             },
             "funding": [
                 {
@@ -26323,7 +26323,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-08-12T12:11:34+00:00"
+            "time": "2025-08-13T12:41:53+00:00"
         },
         {
             "name": "wikimedia/less.php",
