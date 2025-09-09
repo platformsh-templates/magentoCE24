@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.356.11",
+            "version": "3.356.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9dcb228185d441cedd4e6fe76905f6a6cdf83a9c"
+                "reference": "ec28d17cc940a4f996638050ab95dcc2a07f1a6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9dcb228185d441cedd4e6fe76905f6a6cdf83a9c",
-                "reference": "9dcb228185d441cedd4e6fe76905f6a6cdf83a9c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ec28d17cc940a4f996638050ab95dcc2a07f1a6b",
+                "reference": "ec28d17cc940a4f996638050ab95dcc2a07f1a6b",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.11"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.13"
             },
-            "time": "2025-09-04T18:06:33+00:00"
+            "time": "2025-09-08T18:37:19+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -18947,16 +18947,16 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.69",
+            "version": "1.1.70",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/quality-patches.git",
-                "reference": "54188402a3715eb66a933859aa29b237875f1130"
+                "reference": "57e7d6e106a08611cc748f4e16400d0e434a2490"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/quality-patches/zipball/54188402a3715eb66a933859aa29b237875f1130",
-                "reference": "54188402a3715eb66a933859aa29b237875f1130",
+                "url": "https://api.github.com/repos/magento/quality-patches/zipball/57e7d6e106a08611cc748f4e16400d0e434a2490",
+                "reference": "57e7d6e106a08611cc748f4e16400d0e434a2490",
                 "shasum": ""
             },
             "require": {
@@ -19008,10 +19008,10 @@
             ],
             "description": "Provides quality patches for AdobeCommerce & Magento OpenSource",
             "support": {
-                "source": "https://github.com/magento/quality-patches/tree/1.1.69",
+                "source": "https://github.com/magento/quality-patches/tree/1.1.70",
                 "issues": "https://github.com/magento/quality-patches/issues"
             },
-            "time": "2025-08-13T17:02:19+00:00"
+            "time": "2025-09-08T17:36:35+00:00"
         },
         {
             "name": "magento/security-package",
@@ -19845,16 +19845,16 @@
         },
         {
             "name": "n98/magerun2-dist",
-            "version": "9.0.2",
+            "version": "9.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2-dist.git",
-                "reference": "21afc58b4dd998e70e7be91ded4ee64d1602ed24"
+                "reference": "2f01aa1e02b1f1b032729a14bf15fb15884c7b2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/21afc58b4dd998e70e7be91ded4ee64d1602ed24",
-                "reference": "21afc58b4dd998e70e7be91ded4ee64d1602ed24",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/2f01aa1e02b1f1b032729a14bf15fb15884c7b2c",
+                "reference": "2f01aa1e02b1f1b032729a14bf15fb15884c7b2c",
                 "shasum": ""
             },
             "require": {
@@ -19881,22 +19881,22 @@
             ],
             "support": {
                 "issues": "https://github.com/netz98/n98-magerun2/issues",
-                "source": "https://github.com/netz98/n98-magerun2-dist/tree/9.0.2"
+                "source": "https://github.com/netz98/n98-magerun2-dist/tree/9.1.0"
             },
-            "time": "2025-07-21T09:08:22+00:00"
+            "time": "2025-09-08T12:56:37+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.10.2",
+            "version": "3.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "76b5c07b8a9d2025ed1610e14cef1f3fd6ad2c24"
+                "reference": "8e3643dcd149ae0fe1d2ff4f2c8e4bbfad7c165f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/76b5c07b8a9d2025ed1610e14cef1f3fd6ad2c24",
-                "reference": "76b5c07b8a9d2025ed1610e14cef1f3fd6ad2c24",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/8e3643dcd149ae0fe1d2ff4f2c8e4bbfad7c165f",
+                "reference": "8e3643dcd149ae0fe1d2ff4f2c8e4bbfad7c165f",
                 "shasum": ""
             },
             "require": {
@@ -19914,13 +19914,13 @@
             "require-dev": {
                 "doctrine/dbal": "^3.6.3 || ^4.0",
                 "doctrine/orm": "^2.15.2 || ^3.0",
-                "friendsofphp/php-cs-fixer": "^3.75.0",
+                "friendsofphp/php-cs-fixer": "^v3.87.1",
                 "kylekatarnls/multi-tester": "^2.5.3",
                 "phpmd/phpmd": "^2.15.0",
                 "phpstan/extension-installer": "^1.4.3",
-                "phpstan/phpstan": "^2.1.17",
-                "phpunit/phpunit": "^10.5.46",
-                "squizlabs/php_codesniffer": "^3.13.0"
+                "phpstan/phpstan": "^2.1.22",
+                "phpunit/phpunit": "^10.5.53",
+                "squizlabs/php_codesniffer": "^3.13.4"
             },
             "bin": [
                 "bin/carbon"
@@ -19988,7 +19988,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-02T09:36:06+00:00"
+            "time": "2025-09-06T13:39:36+00:00"
         },
         {
             "name": "nikic/php-parser",
