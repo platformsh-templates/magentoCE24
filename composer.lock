@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.356.28",
+            "version": "3.356.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "aaf809461033836d120f3bbf7a4cf67e946281d1"
+                "reference": "3e413221956aa969f379ff6fa67a303ce76aad13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/aaf809461033836d120f3bbf7a4cf67e946281d1",
-                "reference": "aaf809461033836d120f3bbf7a4cf67e946281d1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3e413221956aa969f379ff6fa67a303ce76aad13",
+                "reference": "3e413221956aa969f379ff6fa67a303ce76aad13",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.28"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.29"
             },
-            "time": "2025-09-29T18:04:14+00:00"
+            "time": "2025-09-30T18:12:45+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2629,16 +2629,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v12.31.1",
+            "version": "v12.32.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "0683d7b5210b18a2e00bc2dbc5f856a611e1f152"
+                "reference": "d47aaf15c55dd1c252688fdc7adbee129bd2ff0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/0683d7b5210b18a2e00bc2dbc5f856a611e1f152",
-                "reference": "0683d7b5210b18a2e00bc2dbc5f856a611e1f152",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/d47aaf15c55dd1c252688fdc7adbee129bd2ff0b",
+                "reference": "d47aaf15c55dd1c252688fdc7adbee129bd2ff0b",
                 "shasum": ""
             },
             "require": {
@@ -2684,11 +2684,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-09-23T13:51:52+00:00"
+            "time": "2025-09-28T12:52:25+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v12.31.1",
+            "version": "v12.32.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -2734,7 +2734,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v12.31.1",
+            "version": "v12.32.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2782,7 +2782,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v12.31.1",
+            "version": "v12.32.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2830,7 +2830,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v12.31.1",
+            "version": "v12.32.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -20382,16 +20382,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v2.2.0",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "9c3535883f1b60b5d26aeae5914bbec61132ad7f"
+                "reference": "4a2ab4341bc5802e1db1f761a9eab15fbb34f967"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/9c3535883f1b60b5d26aeae5914bbec61132ad7f",
-                "reference": "9c3535883f1b60b5d26aeae5914bbec61132ad7f",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/4a2ab4341bc5802e1db1f761a9eab15fbb34f967",
+                "reference": "4a2ab4341bc5802e1db1f761a9eab15fbb34f967",
                 "shasum": ""
             },
             "require": {
@@ -20472,9 +20472,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paragonie/sodium_compat/issues",
-                "source": "https://github.com/paragonie/sodium_compat/tree/v2.2.0"
+                "source": "https://github.com/paragonie/sodium_compat/tree/v2.3.1"
             },
-            "time": "2025-09-21T18:27:14+00:00"
+            "time": "2025-09-30T15:08:52+00:00"
         },
         {
             "name": "paypal/module-braintree",
