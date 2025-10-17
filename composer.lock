@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.356.40",
+            "version": "3.356.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3c1d71932ed962810316930b327b3b71a7517cff"
+                "reference": "ca7f6fe61688817afb55105078d0daa1c99d3ab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3c1d71932ed962810316930b327b3b71a7517cff",
-                "reference": "3c1d71932ed962810316930b327b3b71a7517cff",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ca7f6fe61688817afb55105078d0daa1c99d3ab9",
+                "reference": "ca7f6fe61688817afb55105078d0daa1c99d3ab9",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.40"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.41"
             },
-            "time": "2025-10-15T18:13:33+00:00"
+            "time": "2025-10-16T18:07:24+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -19017,16 +19017,16 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.71",
+            "version": "1.1.72",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/quality-patches.git",
-                "reference": "4da2e69205db0f77106eef0ef8697270c37a85b6"
+                "reference": "83f626cb1d852489432aff80ada73de0cbced570"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/quality-patches/zipball/4da2e69205db0f77106eef0ef8697270c37a85b6",
-                "reference": "4da2e69205db0f77106eef0ef8697270c37a85b6",
+                "url": "https://api.github.com/repos/magento/quality-patches/zipball/83f626cb1d852489432aff80ada73de0cbced570",
+                "reference": "83f626cb1d852489432aff80ada73de0cbced570",
                 "shasum": ""
             },
             "require": {
@@ -19078,10 +19078,10 @@
             ],
             "description": "Provides quality patches for AdobeCommerce & Magento OpenSource",
             "support": {
-                "source": "https://github.com/magento/quality-patches/tree/1.1.71",
+                "source": "https://github.com/magento/quality-patches/tree/1.1.72",
                 "issues": "https://github.com/magento/quality-patches/issues"
             },
-            "time": "2025-09-24T17:55:53+00:00"
+            "time": "2025-10-16T03:32:21+00:00"
         },
         {
             "name": "magento/security-package",
