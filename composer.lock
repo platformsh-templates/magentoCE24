@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.359.0",
+            "version": "3.359.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7231e7c309d6262855289511d6ee124fafbe664f"
+                "reference": "bc3244323c96d667caf6ff1c7b1d238781e5b925"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7231e7c309d6262855289511d6ee124fafbe664f",
-                "reference": "7231e7c309d6262855289511d6ee124fafbe664f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bc3244323c96d667caf6ff1c7b1d238781e5b925",
+                "reference": "bc3244323c96d667caf6ff1c7b1d238781e5b925",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.359.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.359.2"
             },
-            "time": "2025-10-29T00:06:16+00:00"
+            "time": "2025-10-30T18:16:03+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2059,16 +2059,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.235",
+            "version": "1.2.236",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "86a6a55c826443fda3780d82d017ba37d11e6b5d"
+                "reference": "ccf400b52884392a3424fe20b89f8954c6954ac5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/86a6a55c826443fda3780d82d017ba37d11e6b5d",
-                "reference": "86a6a55c826443fda3780d82d017ba37d11e6b5d",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/ccf400b52884392a3424fe20b89f8954c6954ac5",
+                "reference": "ccf400b52884392a3424fe20b89f8954c6954ac5",
                 "shasum": ""
             },
             "require": {
@@ -2097,9 +2097,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.235"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.236"
             },
-            "time": "2025-10-01T04:02:37+00:00"
+            "time": "2025-10-30T07:25:18+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -2951,25 +2951,25 @@
         },
         {
             "name": "laminas/laminas-captcha",
-            "version": "2.18.0",
+            "version": "2.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-captcha.git",
-                "reference": "4c0965b31ec310ec95c72acd76a016b5030182fe"
+                "reference": "768d2152f9687c27b5dfdb2322bf6001d48cda89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-captcha/zipball/4c0965b31ec310ec95c72acd76a016b5030182fe",
-                "reference": "4c0965b31ec310ec95c72acd76a016b5030182fe",
+                "url": "https://api.github.com/repos/laminas/laminas-captcha/zipball/768d2152f9687c27b5dfdb2322bf6001d48cda89",
+                "reference": "768d2152f9687c27b5dfdb2322bf6001d48cda89",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-recaptcha": "^3.4.0",
-                "laminas/laminas-session": "^2.12",
+                "laminas/laminas-session": "^2.25",
                 "laminas/laminas-stdlib": "^3.10.1",
-                "laminas/laminas-text": "^2.9.0",
+                "laminas/laminas-text": "^2.12.1",
                 "laminas/laminas-validator": "^2.19.0",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
             },
             "conflict": {
                 "zendframework/zend-captcha": "*"
@@ -2979,7 +2979,7 @@
                 "laminas/laminas-coding-standard": "~2.5.0",
                 "phpunit/phpunit": "^9.5.26",
                 "psalm/plugin-phpunit": "^0.19.0",
-                "vimeo/psalm": "^5.1"
+                "vimeo/psalm": "^6.13"
             },
             "suggest": {
                 "laminas/laminas-i18n-resources": "Translations of captcha messages"
@@ -3014,7 +3014,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2025-01-06T20:04:41+00:00"
+            "time": "2025-10-29T17:20:39+00:00"
         },
         {
             "name": "laminas/laminas-code",
