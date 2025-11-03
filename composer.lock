@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.359.3",
+            "version": "3.359.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a32e4c9522f0b61c947fafa1713d3a24b397a757"
+                "reference": "510cb4b7e2fa3ea09ad2154e7a13fe7675c36b30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a32e4c9522f0b61c947fafa1713d3a24b397a757",
-                "reference": "a32e4c9522f0b61c947fafa1713d3a24b397a757",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/510cb4b7e2fa3ea09ad2154e7a13fe7675c36b30",
+                "reference": "510cb4b7e2fa3ea09ad2154e7a13fe7675c36b30",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.359.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.359.4"
             },
-            "time": "2025-10-31T18:15:22+00:00"
+            "time": "2025-11-03T19:18:23+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -3944,20 +3944,20 @@
         },
         {
             "name": "laminas/laminas-permissions-acl",
-            "version": "2.17.0",
+            "version": "2.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-permissions-acl.git",
-                "reference": "96d710d0a8e6cfa781b2ba184a3dd397634ae2e7"
+                "reference": "5940f6e7b9e2e3eba671f13dd26e610d2fe9acc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-permissions-acl/zipball/96d710d0a8e6cfa781b2ba184a3dd397634ae2e7",
-                "reference": "96d710d0a8e6cfa781b2ba184a3dd397634ae2e7",
+                "url": "https://api.github.com/repos/laminas/laminas-permissions-acl/zipball/5940f6e7b9e2e3eba671f13dd26e610d2fe9acc3",
+                "reference": "5940f6e7b9e2e3eba671f13dd26e610d2fe9acc3",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
             },
             "conflict": {
                 "laminas/laminas-servicemanager": "<3.0",
@@ -3967,9 +3967,9 @@
                 "laminas/laminas-coding-standard": "^3.0.1",
                 "laminas/laminas-servicemanager": "^3.21",
                 "phpbench/phpbench": "^1.2.10",
-                "phpunit/phpunit": "^10.5.38",
+                "phpunit/phpunit": "^10.5.58",
                 "psalm/plugin-phpunit": "^0.19.0",
-                "vimeo/psalm": "^5.26.1"
+                "vimeo/psalm": "^6.13.1"
             },
             "suggest": {
                 "laminas/laminas-servicemanager": "To support Laminas\\Permissions\\Acl\\Assertion\\AssertionManager plugin manager usage"
@@ -4004,7 +4004,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2024-11-25T10:38:49+00:00"
+            "time": "2025-11-03T09:15:20+00:00"
         },
         {
             "name": "laminas/laminas-recaptcha",
