@@ -1,2 +1,7 @@
 # Needed to set the "lock provider" to file instead of db in app/etc/env.php - https://github.com/platformsh-templates/magentoCE24/issues/18
 export MAGENTO_CLOUD_LOCKS_DIR=$PLATFORM_LOCKS_DIR
+
+# Transform FASTLY_API credentials into a special format that Magento ece_tools will absorb.
+# https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/override-config-settings
+export CONFIG__DEFAULT__SYSTEM__FULL_PAGE_CACHE__FASTLY__FASTLY_SERVICE_ID=$FASTLY_API_SERVICE
+export CONFIG__DEFAULT__SYSTEM__FULL_PAGE_CACHE__FASTLY__FASTLY_SERVICE_TOKEN=$FASTLY_API_TOKEN
