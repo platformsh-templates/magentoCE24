@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.367.1",
+            "version": "3.367.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4155279437f17a51604f05f8373b685c058bc278"
+                "reference": "3dc26d6f26a4d6380d82b2be4d8ae80fefb23d71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4155279437f17a51604f05f8373b685c058bc278",
-                "reference": "4155279437f17a51604f05f8373b685c058bc278",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3dc26d6f26a4d6380d82b2be4d8ae80fefb23d71",
+                "reference": "3dc26d6f26a4d6380d82b2be4d8ae80fefb23d71",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.367.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.367.2"
             },
-            "time": "2025-12-11T19:13:06+00:00"
+            "time": "2025-12-12T19:14:10+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -19523,16 +19523,16 @@
         },
         {
             "name": "magento/zend-memory",
-            "version": "1.16.0",
+            "version": "1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-zend-memory.git",
-                "reference": "0d48804c6718cc9f15e5c356e6192fd6fff8932b"
+                "reference": "781e666c33223589552ab78c43c3a93c6bf0ddff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-zend-memory/zipball/0d48804c6718cc9f15e5c356e6192fd6fff8932b",
-                "reference": "0d48804c6718cc9f15e5c356e6192fd6fff8932b",
+                "url": "https://api.github.com/repos/magento/magento-zend-memory/zipball/781e666c33223589552ab78c43c3a93c6bf0ddff",
+                "reference": "781e666c33223589552ab78c43c3a93c6bf0ddff",
                 "shasum": ""
             },
             "require": {
@@ -19569,22 +19569,22 @@
             ],
             "support": {
                 "issues": "https://github.com/magento/magento-zend-memory/issues",
-                "source": "https://github.com/magento/magento-zend-memory/tree/1.16.0"
+                "source": "https://github.com/magento/magento-zend-memory/tree/1.16.1"
             },
-            "time": "2022-09-22T18:17:46+00:00"
+            "time": "2025-12-11T10:34:55+00:00"
         },
         {
             "name": "magento/zend-pdf",
-            "version": "1.16.5",
+            "version": "1.16.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-zend-pdf.git",
-                "reference": "ce8e838cf04a41f5b2659509d628edf1416e4fbe"
+                "reference": "26a51f45b09be173447f5957254311bdda5c4a8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-zend-pdf/zipball/ce8e838cf04a41f5b2659509d628edf1416e4fbe",
-                "reference": "ce8e838cf04a41f5b2659509d628edf1416e4fbe",
+                "url": "https://api.github.com/repos/magento/magento-zend-pdf/zipball/26a51f45b09be173447f5957254311bdda5c4a8a",
+                "reference": "26a51f45b09be173447f5957254311bdda5c4a8a",
                 "shasum": ""
             },
             "require": {
@@ -19626,9 +19626,9 @@
             ],
             "support": {
                 "issues": "https://github.com/magento/magento-zend-pdf/issues",
-                "source": "https://github.com/magento/magento-zend-pdf/tree/1.16.5"
+                "source": "https://github.com/magento/magento-zend-pdf/tree/1.16.6"
             },
-            "time": "2025-06-20T07:55:02+00:00"
+            "time": "2025-12-11T10:52:59+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
