@@ -88,16 +88,16 @@
         },
         {
             "name": "astock/stock-api-libphp",
-            "version": "1.1.6",
+            "version": "1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/adobe/stock-api-libphp.git",
-                "reference": "f28366b7c11a88c108376309c128208c3208e6cc"
+                "reference": "3b9d94a6876ef237f8a2e2b028695d0e7eab1db9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adobe/stock-api-libphp/zipball/f28366b7c11a88c108376309c128208c3208e6cc",
-                "reference": "f28366b7c11a88c108376309c128208c3208e6cc",
+                "url": "https://api.github.com/repos/adobe/stock-api-libphp/zipball/3b9d94a6876ef237f8a2e2b028695d0e7eab1db9",
+                "reference": "3b9d94a6876ef237f8a2e2b028695d0e7eab1db9",
                 "shasum": ""
             },
             "require": {
@@ -122,9 +122,9 @@
             "description": "Adobe Stock API library",
             "support": {
                 "issues": "https://github.com/adobe/stock-api-libphp/issues",
-                "source": "https://github.com/adobe/stock-api-libphp/tree/1.1.6"
+                "source": "https://github.com/adobe/stock-api-libphp/tree/1.1.7"
             },
-            "time": "2025-01-07T18:03:22+00:00"
+            "time": "2025-12-22T19:36:35+00:00"
         },
         {
             "name": "aws/aws-crt-php",
