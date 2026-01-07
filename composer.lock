@@ -2871,7 +2871,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v12.45.0",
+            "version": "v12.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2967,7 +2967,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v12.45.0",
+            "version": "v12.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -9501,15 +9501,14 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.4.15",
+            "version": "103.4.17",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.15.0.zip",
-                "shasum": "1312551fec35548a772daa546a655b2cdb087f02"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.17.0.zip",
+                "shasum": "2528df3d1bc7739108398bea255cead2fac32d38"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
-                "magento/module-analytics": ">=100.4.4",
                 "magento/module-indexer": ">=100.4.4",
                 "magento/module-query-xml": "self.version",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
@@ -15052,11 +15051,11 @@
         },
         {
             "name": "magento/module-payment-services-base",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-base-2.13.1.0.zip",
-                "shasum": "184818aadd3619cc7bab09ffff0c879beef1c14a"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-base-2.13.2.0.zip",
+                "shasum": "6672db3071dd1af843212d24f7aebe99be74ed5f"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -15064,10 +15063,10 @@
                 "magento/module-config": ">=101.2.4 <102.0.0",
                 "magento/module-directory": ">=100.4.4 <101.0.0",
                 "magento/module-payment": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-dashboard": "2.13.1",
-                "magento/module-payment-services-paypal": "2.13.1",
+                "magento/module-payment-services-dashboard": "2.13.2",
+                "magento/module-payment-services-paypal": "2.13.2",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
-                "magento/module-service-proxy": "2.13.1",
+                "magento/module-service-proxy": "2.13.2",
                 "magento/module-services-id": "^3.2.0",
                 "magento/module-services-id-graph-ql-server": "^1.1.0",
                 "magento/module-services-id-layout": "^1.1.0",
@@ -15096,20 +15095,20 @@
         },
         {
             "name": "magento/module-payment-services-dashboard",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-dashboard-2.13.1.0.zip",
-                "shasum": "f14ce439cfcf59930b4870e55eb0eee743c0f5ac"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-dashboard-2.13.2.0.zip",
+                "shasum": "dd8e056612a81465cd43bd2ccfafa8bd833fffc7"
             },
             "require": {
                 "ext-json": "*",
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-backend": ">=102.0.4 <103.0.0",
                 "magento/module-config": ">=101.2.4 <102.0.0",
-                "magento/module-payment-services-base": "2.13.1",
-                "magento/module-payment-services-paypal": "2.13.1",
-                "magento/module-service-proxy": "2.13.1",
+                "magento/module-payment-services-base": "2.13.2",
+                "magento/module-payment-services-paypal": "2.13.2",
+                "magento/module-service-proxy": "2.13.2",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
@@ -15130,11 +15129,11 @@
         },
         {
             "name": "magento/module-payment-services-paypal",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-2.13.1.0.zip",
-                "shasum": "cee1c33fd3f11981db5b89e2c84ec5bed7a9c419"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-2.13.2.0.zip",
+                "shasum": "939b9cc9494d0fc44ec87218233f7d953c7a73e3"
             },
             "require": {
                 "giggsey/libphonenumber-for-php": "^9.0",
@@ -15151,12 +15150,12 @@
                 "magento/module-instant-purchase": ">=100.4.3 <101.0.0",
                 "magento/module-integration": ">=100.4.4 <101.0.0",
                 "magento/module-payment": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-base": "2.13.1",
+                "magento/module-payment-services-base": "2.13.2",
                 "magento/module-query-xml": "^103.0.3",
                 "magento/module-quote": ">=101.2.4 <102.0.0",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
                 "magento/module-sales-rule": ">=101.2.4 <102.0.0",
-                "magento/module-service-proxy": "2.13.1",
+                "magento/module-service-proxy": "2.13.2",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "magento/module-tax": ">=100.4.4 <101.0.0",
                 "magento/module-theme": ">=101.1.4 <102.0.0",
@@ -15180,18 +15179,18 @@
         },
         {
             "name": "magento/module-payment-services-paypal-graph-ql",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-graph-ql-2.13.1.0.zip",
-                "shasum": "b86c999f710149fcfac50ee22363b36db6356619"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-graph-ql-2.13.2.0.zip",
+                "shasum": "6c1e062d02b258a887388cdec656405181b41103"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-csp": ">=100.4.3 <101.0.0",
                 "magento/module-customer": ">=103.0.4 <104.0.0",
                 "magento/module-graph-ql": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-paypal": "2.13.1",
+                "magento/module-payment-services-paypal": "2.13.2",
                 "magento/module-quote": ">=101.2.4 <102.0.0",
                 "magento/module-quote-graph-ql": ">=100.4.4 <101.0.0",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
@@ -15216,20 +15215,20 @@
         },
         {
             "name": "magento/module-payment-services-saas-export",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-saas-export-2.13.1.0.zip",
-                "shasum": "945625e3c1d6d73caed1b379c6a500d53abc2a09"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-saas-export-2.13.2.0.zip",
+                "shasum": "9ed5420cc7e955480a0dd0386ee32bfdc14329f7"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-data-exporter": "^103.0.3",
-                "magento/module-payment-services-base": "2.13.1",
+                "magento/module-payment-services-base": "2.13.2",
                 "magento/module-saas-common": "^103.0.3",
-                "magento/module-sales-data-exporter": "2.13.1",
+                "magento/module-sales-data-exporter": "2.13.2",
                 "magento/module-services-id": "^3.2.0",
-                "magento/module-store-data-exporter": "2.13.1",
+                "magento/module-store-data-exporter": "2.13.2",
                 "magento/services-connector": "^1.3.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
@@ -15483,15 +15482,14 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.4.15",
+            "version": "103.4.17",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.15.0.zip",
-                "shasum": "3caefed9667ca11282ba31bff3404975c4f26fc9"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.17.0.zip",
+                "shasum": "6ae9fafa074663e1605dcf589c8bd0ea3d65f608"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
-                "magento/module-analytics": ">=100.4.4",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
             "type": "magento2-module",
@@ -16838,11 +16836,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.4.15",
+            "version": "103.4.17",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.15.0.zip",
-                "shasum": "eff345a4abd36cc36fc336592693217ec5f1d5ce"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.17.0.zip",
+                "shasum": "05febc5d9bd186f1139a62acee77c9c94f1ec969"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16959,11 +16957,11 @@
         },
         {
             "name": "magento/module-sales-data-exporter",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-sales-data-exporter-2.13.1.0.zip",
-                "shasum": "9f61eec7c82f7a9305f5239581cc64843a68f366"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-sales-data-exporter-2.13.2.0.zip",
+                "shasum": "a80233ddc867b9db5748d5528e1498d6e0f4271b"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -17359,17 +17357,17 @@
         },
         {
             "name": "magento/module-service-proxy",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-service-proxy-2.13.1.0.zip",
-                "shasum": "130811da699a7d45ec0bd8813810aeb4389ea09a"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-service-proxy-2.13.2.0.zip",
+                "shasum": "02bd4643cbe7bba19616844d83683a935b50f288"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-backend": ">=102.0.4 <103.0.0",
                 "magento/module-page-cache": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-paypal": "2.13.1",
+                "magento/module-payment-services-paypal": "2.13.2",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0"
             },
@@ -17636,11 +17634,11 @@
         },
         {
             "name": "magento/module-store-data-exporter",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-store-data-exporter-2.13.1.0.zip",
-                "shasum": "3d0b0e375f76ecf0a3d48c913449f91846d1dca3"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-store-data-exporter-2.13.2.0.zip",
+                "shasum": "30e6ee7a7f8d24ef50297c0ca947bf32b0da9f49"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -18807,22 +18805,22 @@
         },
         {
             "name": "magento/payment-services",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-payment-services-2.13.1.0.zip",
-                "shasum": "ab4f3f56fcd8cfa4cbdeafdcd311269754b5827c"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-payment-services-2.13.2.0.zip",
+                "shasum": "dc6f10ef3904fa5e127f8169c4d134bc7ab3bfa0"
             },
             "require": {
                 "giggsey/libphonenumber-for-php": "^9.0",
-                "magento/module-payment-services-base": "2.13.1",
-                "magento/module-payment-services-dashboard": "2.13.1",
-                "magento/module-payment-services-paypal": "2.13.1",
-                "magento/module-payment-services-paypal-graph-ql": "2.13.1",
-                "magento/module-payment-services-saas-export": "2.13.1",
-                "magento/module-sales-data-exporter": "2.13.1",
-                "magento/module-service-proxy": "2.13.1",
-                "magento/module-store-data-exporter": "2.13.1",
+                "magento/module-payment-services-base": "2.13.2",
+                "magento/module-payment-services-dashboard": "2.13.2",
+                "magento/module-payment-services-paypal": "2.13.2",
+                "magento/module-payment-services-paypal-graph-ql": "2.13.2",
+                "magento/module-payment-services-saas-export": "2.13.2",
+                "magento/module-sales-data-exporter": "2.13.2",
+                "magento/module-service-proxy": "2.13.2",
+                "magento/module-store-data-exporter": "2.13.2",
                 "magento/services-id": "^3.2.0"
             },
             "type": "metapackage",
