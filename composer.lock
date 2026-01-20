@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.369.13",
+            "version": "3.369.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bedc36250c92b8287be855a2d25427fb0e065483"
+                "reference": "f7ae10a0b691d40075c801e3ae8735a722debfac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bedc36250c92b8287be855a2d25427fb0e065483",
-                "reference": "bedc36250c92b8287be855a2d25427fb0e065483",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f7ae10a0b691d40075c801e3ae8735a722debfac",
+                "reference": "f7ae10a0b691d40075c801e3ae8735a722debfac",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.13"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.16"
             },
-            "time": "2026-01-14T19:13:46+00:00"
+            "time": "2026-01-20T19:44:30+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2252,16 +2252,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "9.0.20",
+            "version": "9.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "bafb1741c3bc351b39652ed570a6adeec7d8032b"
+                "reference": "38fbbbf512928c5dbc1c11d9501784beb788ed55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/bafb1741c3bc351b39652ed570a6adeec7d8032b",
-                "reference": "bafb1741c3bc351b39652ed570a6adeec7d8032b",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/38fbbbf512928c5dbc1c11d9501784beb788ed55",
+                "reference": "38fbbbf512928c5dbc1c11d9501784beb788ed55",
                 "shasum": ""
             },
             "require": {
@@ -2324,7 +2324,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2025-12-05T12:07:14+00:00"
+            "time": "2026-01-19T09:28:46+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -2765,16 +2765,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v12.47.0",
+            "version": "v12.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "d3f104a32fdfbf416cd1a839dad0e2c670a03f4e"
+                "reference": "95eb9f848a02a05db35d71b63073ed5f09dc11ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/d3f104a32fdfbf416cd1a839dad0e2c670a03f4e",
-                "reference": "d3f104a32fdfbf416cd1a839dad0e2c670a03f4e",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/95eb9f848a02a05db35d71b63073ed5f09dc11ce",
+                "reference": "95eb9f848a02a05db35d71b63073ed5f09dc11ce",
                 "shasum": ""
             },
             "require": {
@@ -2821,11 +2821,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-01-07T21:26:29+00:00"
+            "time": "2026-01-19T15:23:52+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v12.47.0",
+            "version": "v12.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -2871,7 +2871,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v12.47.0",
+            "version": "v12.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2919,7 +2919,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v12.47.0",
+            "version": "v12.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -2967,7 +2967,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v12.47.0",
+            "version": "v12.48.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -20393,16 +20393,16 @@
         },
         {
             "name": "opensearch-project/opensearch-php",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opensearch-project/opensearch-php.git",
-                "reference": "478c5125ab62c5f01c29043b9ab5015b67156d85"
+                "reference": "6e193551266c1f284bdf005d587a85ebff00f29e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/478c5125ab62c5f01c29043b9ab5015b67156d85",
-                "reference": "478c5125ab62c5f01c29043b9ab5015b67156d85",
+                "url": "https://api.github.com/repos/opensearch-project/opensearch-php/zipball/6e193551266c1f284bdf005d587a85ebff00f29e",
+                "reference": "6e193551266c1f284bdf005d587a85ebff00f29e",
                 "shasum": ""
             },
             "require": {
@@ -20418,7 +20418,7 @@
                 "psr/http-message": "^2.0",
                 "psr/http-message-implementation": "*",
                 "psr/log": "^3.0.2",
-                "symfony/yaml": "^v6.4.26|^7.3.5"
+                "symfony/yaml": "^v6.4.26|^7.3.5|^v8.0.0"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "^3.359.8",
@@ -20434,16 +20434,16 @@
                 "phpstan/phpstan-phpunit": "^1.4.2",
                 "phpunit/phpunit": "^10.5.58",
                 "react/promise": "^v3.3",
-                "symfony/console": "^v6.4.27|^7.3.6",
-                "symfony/finder": "^v6.4.27|^7.3.6",
-                "symfony/http-client": "^6.4.27|^7.3.6",
-                "symfony/http-client-contracts": "^v3.6.0"
+                "symfony/console": "^v6.4.27|^7.3.6|^v8.0.0",
+                "symfony/finder": "^v6.4.27|^7.3.6|^v8.0.0",
+                "symfony/http-client": "^6.4.27|^7.3.6|^v8.0.0",
+                "symfony/http-client-contracts": "^v3.6.0|^v8.0.0"
             },
             "suggest": {
                 "aws/aws-sdk-php": "Required (^3.0.0) in order to use the AWS Signing Client Decorator",
                 "guzzlehttp/psr7": "Required (^2.7) in order to use the Guzzle HTTP client",
                 "monolog/monolog": "Allows for client-level logging and tracing",
-                "symfony/http-client": "Required (^6.4|^7.0) in order to use the Symfony HTTP client"
+                "symfony/http-client": "Required (^6.4|^7.0|^8.0) in order to use the Symfony HTTP client"
             },
             "type": "library",
             "autoload": {
@@ -20473,9 +20473,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opensearch-project/opensearch-php/issues",
-                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.5.0"
+                "source": "https://github.com/opensearch-project/opensearch-php/tree/2.5.1"
             },
-            "time": "2025-11-14T21:48:40+00:00"
+            "time": "2026-01-16T21:44:15+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",
