@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.369.18",
+            "version": "3.369.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "48d809eda94dd528ef539cff827e7542ac01cce6"
+                "reference": "32fee3a25290186724ede9ca177d5090f7c5a837"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/48d809eda94dd528ef539cff827e7542ac01cce6",
-                "reference": "48d809eda94dd528ef539cff827e7542ac01cce6",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/32fee3a25290186724ede9ca177d5090f7c5a837",
+                "reference": "32fee3a25290186724ede9ca177d5090f7c5a837",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.18"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.19"
             },
-            "time": "2026-01-22T19:05:57+00:00"
+            "time": "2026-01-23T19:05:51+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -3811,20 +3811,20 @@
         },
         {
             "name": "laminas/laminas-json",
-            "version": "3.7.1",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-json.git",
-                "reference": "a0f9dca08e28f39a7a7a7a04370eb2f017369277"
+                "reference": "5448d357c4520d79f5caf4d46a1fe03ec8b8e4b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-json/zipball/a0f9dca08e28f39a7a7a7a04370eb2f017369277",
-                "reference": "a0f9dca08e28f39a7a7a7a04370eb2f017369277",
+                "url": "https://api.github.com/repos/laminas/laminas-json/zipball/5448d357c4520d79f5caf4d46a1fe03ec8b8e4b0",
+                "reference": "5448d357c4520d79f5caf4d46a1fe03ec8b8e4b0",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+                "php": "^8.1.0"
             },
             "conflict": {
                 "zendframework/zend-json": "*"
@@ -3869,7 +3869,7 @@
                 }
             ],
             "abandoned": true,
-            "time": "2024-12-05T14:51:57+00:00"
+            "time": "2026-01-23T11:10:11+00:00"
         },
         {
             "name": "laminas/laminas-loader",
@@ -5009,16 +5009,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.30.2",
+            "version": "3.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "5966a8ba23e62bdb518dd9e0e665c2dbd4b5b277"
+                "reference": "1717e0b3642b0df65ecb0cc89cdd99fa840672ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5966a8ba23e62bdb518dd9e0e665c2dbd4b5b277",
-                "reference": "5966a8ba23e62bdb518dd9e0e665c2dbd4b5b277",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1717e0b3642b0df65ecb0cc89cdd99fa840672ff",
+                "reference": "1717e0b3642b0df65ecb0cc89cdd99fa840672ff",
                 "shasum": ""
             },
             "require": {
@@ -5086,22 +5086,22 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.30.2"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.31.0"
             },
-            "time": "2025-11-10T17:13:11+00:00"
+            "time": "2026-01-23T15:38:47+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
-            "version": "3.30.1",
+            "version": "3.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
-                "reference": "d286e896083bed3190574b8b088b557b59eb66f5"
+                "reference": "e36a2bc60b06332c92e4435047797ded352b446f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/d286e896083bed3190574b8b088b557b59eb66f5",
-                "reference": "d286e896083bed3190574b8b088b557b59eb66f5",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/e36a2bc60b06332c92e4435047797ded352b446f",
+                "reference": "e36a2bc60b06332c92e4435047797ded352b446f",
                 "shasum": ""
             },
             "require": {
@@ -5141,22 +5141,22 @@
                 "storage"
             ],
             "support": {
-                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/3.30.1"
+                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/3.31.0"
             },
-            "time": "2025-10-20T15:27:33+00:00"
+            "time": "2026-01-23T15:30:45+00:00"
         },
         {
             "name": "league/flysystem-local",
-            "version": "3.30.2",
+            "version": "3.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-local.git",
-                "reference": "ab4f9d0d672f601b102936aa728801dd1a11968d"
+                "reference": "2f669db18a4c20c755c2bb7d3a7b0b2340488079"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/ab4f9d0d672f601b102936aa728801dd1a11968d",
-                "reference": "ab4f9d0d672f601b102936aa728801dd1a11968d",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/2f669db18a4c20c755c2bb7d3a7b0b2340488079",
+                "reference": "2f669db18a4c20c755c2bb7d3a7b0b2340488079",
                 "shasum": ""
             },
             "require": {
@@ -5190,9 +5190,9 @@
                 "local"
             ],
             "support": {
-                "source": "https://github.com/thephpleague/flysystem-local/tree/3.30.2"
+                "source": "https://github.com/thephpleague/flysystem-local/tree/3.31.0"
             },
-            "time": "2025-11-10T11:23:37+00:00"
+            "time": "2026-01-23T15:30:45+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -22814,16 +22814,16 @@
         },
         {
             "name": "spomky-labs/otphp",
-            "version": "11.4.1",
+            "version": "11.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spomky-Labs/otphp.git",
-                "reference": "126c99b6cbbc18992cf3fba3b87931ba4e312482"
+                "reference": "2a1b503fd1c1a5c751ab3c5cd37f2d2d26ab74ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spomky-Labs/otphp/zipball/126c99b6cbbc18992cf3fba3b87931ba4e312482",
-                "reference": "126c99b6cbbc18992cf3fba3b87931ba4e312482",
+                "url": "https://api.github.com/repos/Spomky-Labs/otphp/zipball/2a1b503fd1c1a5c751ab3c5cd37f2d2d26ab74ad",
+                "reference": "2a1b503fd1c1a5c751ab3c5cd37f2d2d26ab74ad",
                 "shasum": ""
             },
             "require": {
@@ -22868,7 +22868,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Spomky-Labs/otphp/issues",
-                "source": "https://github.com/Spomky-Labs/otphp/tree/11.4.1"
+                "source": "https://github.com/Spomky-Labs/otphp/tree/11.4.2"
             },
             "funding": [
                 {
@@ -22880,7 +22880,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-01-05T13:20:36+00:00"
+            "time": "2026-01-23T10:53:01+00:00"
         },
         {
             "name": "spomky-labs/pki-framework",
