@@ -2063,16 +2063,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.236",
+            "version": "1.2.237",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "ccf400b52884392a3424fe20b89f8954c6954ac5"
+                "reference": "c3df717051fb64597c72ff396eb8e2db22d4376b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/ccf400b52884392a3424fe20b89f8954c6954ac5",
-                "reference": "ccf400b52884392a3424fe20b89f8954c6954ac5",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/c3df717051fb64597c72ff396eb8e2db22d4376b",
+                "reference": "c3df717051fb64597c72ff396eb8e2db22d4376b",
                 "shasum": ""
             },
             "require": {
@@ -2101,9 +2101,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.236"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.237"
             },
-            "time": "2025-10-30T07:25:18+00:00"
+            "time": "2026-02-02T01:09:08+00:00"
         },
         {
             "name": "firebase/php-jwt",
