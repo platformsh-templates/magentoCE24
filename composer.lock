@@ -4216,22 +4216,24 @@
         },
         {
             "name": "laminas/laminas-router",
-            "version": "3.17.0",
+            "version": "3.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-router.git",
-                "reference": "ea8903a42be5cf4256cbe6035dfad8dd3fbde3f1"
+                "reference": "e9a3dcf704cfc2ea47da6c2275409c2187034f8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/ea8903a42be5cf4256cbe6035dfad8dd3fbde3f1",
-                "reference": "ea8903a42be5cf4256cbe6035dfad8dd3fbde3f1",
+                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/e9a3dcf704cfc2ea47da6c2275409c2187034f8f",
+                "reference": "e9a3dcf704cfc2ea47da6c2275409c2187034f8f",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-servicemanager": "^3.14.0",
                 "laminas/laminas-stdlib": "^3.10.1",
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
+                "laminas/laminas-uri": "^2.14",
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+                "psr/container": "^1 || ^2.0.2"
             },
             "conflict": {
                 "zendframework/zend-router": "*"
@@ -4283,7 +4285,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2026-02-13T21:34:51+00:00"
+            "time": "2026-03-02T14:54:55+00:00"
         },
         {
             "name": "laminas/laminas-server",
@@ -21448,12 +21450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpgt/Dom.git",
-                "reference": "0173ff4113f73ec32e7dabf0dc07fced111fffdb"
+                "reference": "bdc8498330b2b7bee221e42f02f7714300111130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpgt/Dom/zipball/0173ff4113f73ec32e7dabf0dc07fced111fffdb",
-                "reference": "0173ff4113f73ec32e7dabf0dc07fced111fffdb",
+                "url": "https://api.github.com/repos/phpgt/Dom/zipball/bdc8498330b2b7bee221e42f02f7714300111130",
+                "reference": "bdc8498330b2b7bee221e42f02f7714300111130",
                 "shasum": ""
             },
             "require": {
@@ -21540,7 +21542,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-03-01T21:55:57+00:00"
+            "time": "2026-03-02T16:12:49+00:00"
         },
         {
             "name": "phpgt/propfunc",
