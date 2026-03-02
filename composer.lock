@@ -21444,16 +21444,16 @@
         },
         {
             "name": "phpgt/dom",
-            "version": "v4.1.8",
+            "version": "v4.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpgt/Dom.git",
-                "reference": "dfe4843e402b018141db50a3cf1fbe19406390c5"
+                "reference": "0173ff4113f73ec32e7dabf0dc07fced111fffdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpgt/Dom/zipball/dfe4843e402b018141db50a3cf1fbe19406390c5",
-                "reference": "dfe4843e402b018141db50a3cf1fbe19406390c5",
+                "url": "https://api.github.com/repos/phpgt/Dom/zipball/0173ff4113f73ec32e7dabf0dc07fced111fffdb",
+                "reference": "0173ff4113f73ec32e7dabf0dc07fced111fffdb",
                 "shasum": ""
             },
             "require": {
@@ -21532,7 +21532,7 @@
             "description": "Modern DOM API.",
             "support": {
                 "issues": "https://github.com/phpgt/Dom/issues",
-                "source": "https://github.com/phpgt/Dom/tree/v4.1.8"
+                "source": "https://github.com/phpgt/Dom/tree/v4.1.9"
             },
             "funding": [
                 {
@@ -21540,7 +21540,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-21T13:43:50+00:00"
+            "time": "2026-03-01T21:55:57+00:00"
         },
         {
             "name": "phpgt/propfunc",
