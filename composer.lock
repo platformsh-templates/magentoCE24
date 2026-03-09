@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.372.0",
+            "version": "3.372.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "91ff063599dd5775e8886b9a7ba13cb1f40ca201"
+                "reference": "d1885c8c5db03c2a23121e6df58ef5693df41b95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/91ff063599dd5775e8886b9a7ba13cb1f40ca201",
-                "reference": "91ff063599dd5775e8886b9a7ba13cb1f40ca201",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d1885c8c5db03c2a23121e6df58ef5693df41b95",
+                "reference": "d1885c8c5db03c2a23121e6df58ef5693df41b95",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.372.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.372.2"
             },
-            "time": "2026-03-05T19:38:44+00:00"
+            "time": "2026-03-09T18:21:50+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2063,16 +2063,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.239",
+            "version": "1.2.240",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "fab31a299fa2cbec7dd2466cffb25b5b43a9162c"
+                "reference": "50b0a59abe6a99162668d191a2d67e0cdeb58825"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/fab31a299fa2cbec7dd2466cffb25b5b43a9162c",
-                "reference": "fab31a299fa2cbec7dd2466cffb25b5b43a9162c",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/50b0a59abe6a99162668d191a2d67e0cdeb58825",
+                "reference": "50b0a59abe6a99162668d191a2d67e0cdeb58825",
                 "shasum": ""
             },
             "require": {
@@ -2082,7 +2082,7 @@
                 "magento/module-config": ">=101.2.0",
                 "magento/module-page-cache": ">=100.4.0",
                 "magento/module-store": ">=101.1.0",
-                "php": "~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0|~8.3.0|~8.4.0",
+                "php": "~7.3.0|~7.4.0|~8.0.0|~8.1.0|~8.2.0|~8.3.0|~8.4.0|~8.5.0",
                 "zordius/lightncandy": "^1.2"
             },
             "type": "magento2-module",
@@ -2101,9 +2101,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.239"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.240"
             },
-            "time": "2026-03-03T10:00:18+00:00"
+            "time": "2026-03-09T05:57:45+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -5373,16 +5373,16 @@
         },
         {
             "name": "magento/ece-tools",
-            "version": "2002.2.9",
+            "version": "2002.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/ece-tools.git",
-                "reference": "a94d8fcd1531286cbd29092d5bb4b07786309bb4"
+                "reference": "cc3b703e147e1a50878be169e999aea0a8993bb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/ece-tools/zipball/a94d8fcd1531286cbd29092d5bb4b07786309bb4",
-                "reference": "a94d8fcd1531286cbd29092d5bb4b07786309bb4",
+                "url": "https://api.github.com/repos/magento/ece-tools/zipball/cc3b703e147e1a50878be169e999aea0a8993bb1",
+                "reference": "cc3b703e147e1a50878be169e999aea0a8993bb1",
                 "shasum": ""
             },
             "require": {
@@ -5430,8 +5430,8 @@
                 "php-mock/php-mock-phpunit": "^2.0",
                 "phpmd/phpmd": "@stable",
                 "phpstan/phpstan": "1.2.0 || ^2.0",
-                "phpunit/php-code-coverage": "^10.0",
-                "phpunit/phpunit": "^10.0",
+                "phpunit/php-code-coverage": "^10.0 || ^12.0",
+                "phpunit/phpunit": "^10.0 || ^12.0",
                 "squizlabs/php_codesniffer": "^3.0"
             },
             "bin": [
@@ -5489,10 +5489,10 @@
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
             "support": {
-                "source": "https://github.com/magento/ece-tools/tree/2002.2.9",
+                "source": "https://github.com/magento/ece-tools/tree/2002.2.10",
                 "issues": "https://github.com/magento/ece-tools/issues"
             },
-            "time": "2025-11-13T10:04:23+00:00"
+            "time": "2026-03-05T11:44:00+00:00"
         },
         {
             "name": "magento/framework",
@@ -5961,16 +5961,16 @@
         },
         {
             "name": "magento/magento-cloud-components",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-cloud-components.git",
-                "reference": "27c25757d118597944c90a424d9243d6ed3fd0b7"
+                "reference": "44308b3854f69bbc52797a25dca174f0615c4efb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-cloud-components/zipball/27c25757d118597944c90a424d9243d6ed3fd0b7",
-                "reference": "27c25757d118597944c90a424d9243d6ed3fd0b7",
+                "url": "https://api.github.com/repos/magento/magento-cloud-components/zipball/44308b3854f69bbc52797a25dca174f0615c4efb",
+                "reference": "44308b3854f69bbc52797a25dca174f0615c4efb",
                 "shasum": ""
             },
             "require": {
@@ -5988,7 +5988,7 @@
                 "consolidation/robo": "^3.0 || ^4.0 || ^5.0",
                 "phpmd/phpmd": "@stable",
                 "phpstan/phpstan": "~1.2.0 || ^2.0",
-                "phpunit/phpunit": "^10.0",
+                "phpunit/phpunit": "^10.0 || ^12.0",
                 "squizlabs/php_codesniffer": "^3.7"
             },
             "suggest": {
@@ -6037,23 +6037,23 @@
             },
             "description": "Cloud Components Module for Magento 2.x",
             "support": {
-                "source": "https://github.com/magento/magento-cloud-components/tree/1.1.3",
+                "source": "https://github.com/magento/magento-cloud-components/tree/1.1.4",
                 "issues": "https://github.com/magento/magento-cloud-components/issues"
             },
-            "time": "2025-08-06T10:33:10+00:00"
+            "time": "2026-03-04T14:20:20+00:00"
         },
         {
             "name": "magento/magento-cloud-docker",
-            "version": "1.4.6",
+            "version": "1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-cloud-docker.git",
-                "reference": "87280f44e33c477bf3f2fb13338f090001b77ce8"
+                "reference": "bd869e152b7dcd474d69852eb9580613c7ba11dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-cloud-docker/zipball/87280f44e33c477bf3f2fb13338f090001b77ce8",
-                "reference": "87280f44e33c477bf3f2fb13338f090001b77ce8",
+                "url": "https://api.github.com/repos/magento/magento-cloud-docker/zipball/bd869e152b7dcd474d69852eb9580613c7ba11dd",
+                "reference": "bd869e152b7dcd474d69852eb9580613c7ba11dd",
                 "shasum": ""
             },
             "require": {
@@ -6076,7 +6076,7 @@
                 "consolidation/robo": "^2.0 || ^3.0 || ^4.0 || ^5.0",
                 "phpmd/phpmd": "@stable",
                 "phpstan/phpstan": "^1.8 || ^2.0",
-                "phpunit/phpunit": "^10.0",
+                "phpunit/phpunit": "^10.0 || ^12.0",
                 "squizlabs/php_codesniffer": "^3.7"
             },
             "bin": [
@@ -6170,23 +6170,23 @@
             ],
             "description": "Magento Cloud Docker",
             "support": {
-                "source": "https://github.com/magento/magento-cloud-docker/tree/1.4.6",
+                "source": "https://github.com/magento/magento-cloud-docker/tree/1.4.7",
                 "issues": "https://github.com/magento/magento-cloud-docker/issues"
             },
-            "time": "2025-11-13T10:03:48+00:00"
+            "time": "2026-03-04T15:01:52+00:00"
         },
         {
             "name": "magento/magento-cloud-patches",
-            "version": "1.1.12",
+            "version": "1.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-cloud-patches.git",
-                "reference": "b64afd5c6ac5b0d902c2ef5d4c268a00485e9602"
+                "reference": "1df1f13726e2fe9aa6658ba36cc4f223a8704ab5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-cloud-patches/zipball/b64afd5c6ac5b0d902c2ef5d4c268a00485e9602",
-                "reference": "b64afd5c6ac5b0d902c2ef5d4c268a00485e9602",
+                "url": "https://api.github.com/repos/magento/magento-cloud-patches/zipball/1df1f13726e2fe9aa6658ba36cc4f223a8704ab5",
+                "reference": "1df1f13726e2fe9aa6658ba36cc4f223a8704ab5",
                 "shasum": ""
             },
             "require": {
@@ -6211,7 +6211,7 @@
                 "codeception/module-rest": "^1.2 || ^3.0",
                 "consolidation/robo": "^1.2 || ^3.0 || ^4.0 || ^5.0",
                 "phpmd/phpmd": "@stable",
-                "phpunit/phpunit": "^10.0",
+                "phpunit/phpunit": "^10.0 || ^12.0",
                 "squizlabs/php_codesniffer": "^3.0"
             },
             "bin": [
@@ -6226,19 +6226,23 @@
                 }
             },
             "scripts": {
-                "test": [
-                    "@phpcs",
-                    "@phpmd",
-                    "@phpunit"
+                "test:all": [
+                    "@test:phpcs",
+                    "@test:phpmd",
+                    "@test:unit",
+                    "@test:integrity"
                 ],
-                "phpcs": [
+                "test:phpcs": [
                     "phpcs src --standard=tests/static/phpcs-ruleset.xml -p -n"
                 ],
-                "phpmd": [
+                "test:phpmd": [
                     "phpmd src xml tests/static/phpmd-ruleset.xml"
                 ],
-                "phpunit": [
-                    "phpunit --configuration tests/unit"
+                "test:unit": [
+                    "phpunit --configuration tests/unit --testsuite Unit"
+                ],
+                "test:integrity": [
+                    "phpunit --configuration tests/unit --testsuite Integrity --testdox"
                 ]
             },
             "license": [
@@ -6246,10 +6250,10 @@
             ],
             "description": "Provides critical fixes for Magento 2 Enterprise Edition",
             "support": {
-                "source": "https://github.com/magento/magento-cloud-patches/tree/1.1.12",
+                "source": "https://github.com/magento/magento-cloud-patches/tree/1.1.13",
                 "issues": "https://github.com/magento/magento-cloud-patches/issues"
             },
-            "time": "2025-11-13T10:00:40+00:00"
+            "time": "2026-03-05T11:47:24+00:00"
         },
         {
             "name": "magento/magento-composer-installer",
@@ -9505,11 +9509,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.4.19",
+            "version": "103.4.20",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.19.0.zip",
-                "shasum": "354b74d8d49029adc151119b342bc489a1f48ba1"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.20.0.zip",
+                "shasum": "1bfac5880ba3f30a30b5c2a56a9bbf97559baf4c"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -15486,11 +15490,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.4.19",
+            "version": "103.4.20",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.19.0.zip",
-                "shasum": "0a4a369d24701a0dfcf37fff2d064d9fdddccda7"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.20.0.zip",
+                "shasum": "4143b3eb074a0de5020215f853c85ed863fd1ba2"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16840,11 +16844,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.4.19",
+            "version": "103.4.20",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.19.0.zip",
-                "shasum": "868dbfb207a01108ebe2c99c10ce9734c11efb87"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.20.0.zip",
+                "shasum": "b84753910ead537dfbc90a1514661761dcc5453e"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -23148,16 +23152,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "9400e2f9226b3b64ebb0a8ae967ae84e54e39640"
+                "reference": "6c17162555bfb58957a55bb0e43e00035b6ae3d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/9400e2f9226b3b64ebb0a8ae967ae84e54e39640",
-                "reference": "9400e2f9226b3b64ebb0a8ae967ae84e54e39640",
+                "url": "https://api.github.com/repos/symfony/config/zipball/6c17162555bfb58957a55bb0e43e00035b6ae3d5",
+                "reference": "6c17162555bfb58957a55bb0e43e00035b6ae3d5",
                 "shasum": ""
             },
             "require": {
@@ -23203,7 +23207,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v7.4.6"
+                "source": "https://github.com/symfony/config/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -23223,20 +23227,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-25T16:50:00+00:00"
+            "time": "2026-03-06T10:41:14+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v6.4.34",
+            "version": "v6.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "7b1f1c37eff5910ddda2831345467e593a5120ad"
+                "reference": "49257c96304c508223815ee965c251e7c79e614e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/7b1f1c37eff5910ddda2831345467e593a5120ad",
-                "reference": "7b1f1c37eff5910ddda2831345467e593a5120ad",
+                "url": "https://api.github.com/repos/symfony/console/zipball/49257c96304c508223815ee965c251e7c79e614e",
+                "reference": "49257c96304c508223815ee965c251e7c79e614e",
                 "shasum": ""
             },
             "require": {
@@ -23301,7 +23305,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.4.34"
+                "source": "https://github.com/symfony/console/tree/v6.4.35"
             },
             "funding": [
                 {
@@ -23321,7 +23325,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-23T15:42:15+00:00"
+            "time": "2026-03-06T13:31:08+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -23394,16 +23398,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "a3f7d594ca53a34a7d39ae683fbca09408b0c598"
+                "reference": "0f651e58f4917fb0e2cd261ccbfe3d71e6e0f5db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/a3f7d594ca53a34a7d39ae683fbca09408b0c598",
-                "reference": "a3f7d594ca53a34a7d39ae683fbca09408b0c598",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0f651e58f4917fb0e2cd261ccbfe3d71e6e0f5db",
+                "reference": "0f651e58f4917fb0e2cd261ccbfe3d71e6e0f5db",
                 "shasum": ""
             },
             "require": {
@@ -23454,7 +23458,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v7.4.6"
+                "source": "https://github.com/symfony/dependency-injection/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -23474,7 +23478,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-25T16:50:00+00:00"
+            "time": "2026-03-03T07:48:48+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -23926,16 +23930,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "2bde8afd5ab2fe0b05a9c2d4c3c0e28ceb98a154"
+                "reference": "1010624285470eb60e88ed10035102c75b4ea6af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/2bde8afd5ab2fe0b05a9c2d4c3c0e28ceb98a154",
-                "reference": "2bde8afd5ab2fe0b05a9c2d4c3c0e28ceb98a154",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/1010624285470eb60e88ed10035102c75b4ea6af",
+                "reference": "1010624285470eb60e88ed10035102c75b4ea6af",
                 "shasum": ""
             },
             "require": {
@@ -24003,7 +24007,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v7.4.6"
+                "source": "https://github.com/symfony/http-client/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -24023,7 +24027,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-18T09:46:18+00:00"
+            "time": "2026-03-05T11:16:58+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -24105,16 +24109,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "fd97d5e926e988a363cef56fbbf88c5c528e9065"
+                "reference": "f94b3e7b7dafd40e666f0c9ff2084133bae41e81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/fd97d5e926e988a363cef56fbbf88c5c528e9065",
-                "reference": "fd97d5e926e988a363cef56fbbf88c5c528e9065",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f94b3e7b7dafd40e666f0c9ff2084133bae41e81",
+                "reference": "f94b3e7b7dafd40e666f0c9ff2084133bae41e81",
                 "shasum": ""
             },
             "require": {
@@ -24163,7 +24167,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v7.4.6"
+                "source": "https://github.com/symfony/http-foundation/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -24183,20 +24187,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-21T16:25:55+00:00"
+            "time": "2026-03-06T13:15:18+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "002ac0cf4cd972a7fd0912dcd513a95e8a81ce83"
+                "reference": "3b3fcf386c809be990c922e10e4c620d6367cab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/002ac0cf4cd972a7fd0912dcd513a95e8a81ce83",
-                "reference": "002ac0cf4cd972a7fd0912dcd513a95e8a81ce83",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/3b3fcf386c809be990c922e10e4c620d6367cab1",
+                "reference": "3b3fcf386c809be990c922e10e4c620d6367cab1",
                 "shasum": ""
             },
             "require": {
@@ -24282,7 +24286,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v7.4.6"
+                "source": "https://github.com/symfony/http-kernel/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -24302,7 +24306,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-26T08:30:57+00:00"
+            "time": "2026-03-06T16:33:18+00:00"
         },
         {
             "name": "symfony/intl",
@@ -24477,16 +24481,16 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v6.4.34",
+            "version": "v6.4.35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "2b32fbbe10b36a8379efab6e702ad8b917151839"
+                "reference": "b5cce719de25bebd6345c7709774f9ac63ff5cdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/2b32fbbe10b36a8379efab6e702ad8b917151839",
-                "reference": "2b32fbbe10b36a8379efab6e702ad8b917151839",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/b5cce719de25bebd6345c7709774f9ac63ff5cdf",
+                "reference": "b5cce719de25bebd6345c7709774f9ac63ff5cdf",
                 "shasum": ""
             },
             "require": {
@@ -24542,7 +24546,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v6.4.34"
+                "source": "https://github.com/symfony/mime/tree/v6.4.35"
             },
             "funding": [
                 {
@@ -24562,7 +24566,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-02T17:01:23+00:00"
+            "time": "2026-03-05T11:25:28+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -25688,16 +25692,16 @@
         },
         {
             "name": "symfony/serializer",
-            "version": "v7.4.6",
+            "version": "v7.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "83c3cbd6dcb96c1dbe197499a0714f8dceb0f274"
+                "reference": "bd395bbc6fabd136a48e1a6f91b09f88b5050b0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/83c3cbd6dcb96c1dbe197499a0714f8dceb0f274",
-                "reference": "83c3cbd6dcb96c1dbe197499a0714f8dceb0f274",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/bd395bbc6fabd136a48e1a6f91b09f88b5050b0b",
+                "reference": "bd395bbc6fabd136a48e1a6f91b09f88b5050b0b",
                 "shasum": ""
             },
             "require": {
@@ -25768,7 +25772,7 @@
             "description": "Handles serializing and deserializing data structures, including object graphs, into array structures or other formats like XML and JSON.",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/serializer/tree/v7.4.6"
+                "source": "https://github.com/symfony/serializer/tree/v7.4.7"
             },
             "funding": [
                 {
@@ -25788,7 +25792,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-25T16:50:00+00:00"
+            "time": "2026-03-06T13:15:18+00:00"
         },
         {
             "name": "symfony/service-contracts",
