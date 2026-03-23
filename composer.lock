@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.373.7",
+            "version": "3.373.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4402bd10f913e66b7271f44466be8d5ba6c9146e"
+                "reference": "18035d80bab38c962af8580307a787bf4e15cc47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4402bd10f913e66b7271f44466be8d5ba6c9146e",
-                "reference": "4402bd10f913e66b7271f44466be8d5ba6c9146e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/18035d80bab38c962af8580307a787bf4e15cc47",
+                "reference": "18035d80bab38c962af8580307a787bf4e15cc47",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.373.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.373.8"
             },
-            "time": "2026-03-20T18:14:19+00:00"
+            "time": "2026-03-23T18:08:22+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -26746,16 +26746,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.31.1",
+            "version": "v15.31.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "8b446b55a30680f105eb5c4d25ccbc015926d398"
+                "reference": "b2c3b02f9151afeba7ab79580e89992ac0ad4fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/8b446b55a30680f105eb5c4d25ccbc015926d398",
-                "reference": "8b446b55a30680f105eb5c4d25ccbc015926d398",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/b2c3b02f9151afeba7ab79580e89992ac0ad4fec",
+                "reference": "b2c3b02f9151afeba7ab79580e89992ac0ad4fec",
                 "shasum": ""
             },
             "require": {
@@ -26773,7 +26773,7 @@
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "2.1.40",
+                "phpstan/phpstan": "2.1.42",
                 "phpstan/phpstan-phpunit": "2.0.16",
                 "phpstan/phpstan-strict-rules": "2.0.10",
                 "phpunit/phpunit": "^9.5 || ^10.5.21 || ^11",
@@ -26809,7 +26809,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.31.1"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.31.2"
             },
             "funding": [
                 {
@@ -26821,7 +26821,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-03-16T15:32:01+00:00"
+            "time": "2026-03-23T07:32:52+00:00"
         },
         {
             "name": "wikimedia/less.php",
