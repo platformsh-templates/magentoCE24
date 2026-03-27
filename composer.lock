@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.374.1",
+            "version": "3.374.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "fa9801583e679aecc95660838708acfd98aa28e7"
+                "reference": "67b6b6210af47319c74c5666388d71bc1bc58276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fa9801583e679aecc95660838708acfd98aa28e7",
-                "reference": "fa9801583e679aecc95660838708acfd98aa28e7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/67b6b6210af47319c74c5666388d71bc1bc58276",
+                "reference": "67b6b6210af47319c74c5666388d71bc1bc58276",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.374.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.374.2"
             },
-            "time": "2026-03-26T18:06:13+00:00"
+            "time": "2026-03-27T18:05:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -21400,26 +21400,28 @@
         },
         {
             "name": "phpgt/cssxpath",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpgt/CssXPath.git",
-                "reference": "008aaf7f381e2396590fc53830f4a8ad9f517c7f"
+                "reference": "577781742ff61742332740d50f35f2b6cc037e2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpgt/CssXPath/zipball/008aaf7f381e2396590fc53830f4a8ad9f517c7f",
-                "reference": "008aaf7f381e2396590fc53830f4a8ad9f517c7f",
+                "url": "https://api.github.com/repos/phpgt/CssXPath/zipball/577781742ff61742332740d50f35f2b6cc037e2a",
+                "reference": "577781742ff61742332740d50f35f2b6cc037e2a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0"
+                "php": ">=8.2"
             },
             "require-dev": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
+                "phpmd/phpmd": "^2.15",
                 "phpstan/phpstan": "^2.1",
-                "phpunit/phpunit": "^9.6"
+                "phpunit/phpunit": "^10.5",
+                "squizlabs/php_codesniffer": "^4.0"
             },
             "type": "library",
             "autoload": {
@@ -21442,7 +21444,7 @@
             "description": "Convert CSS selectors to XPath queries.",
             "support": {
                 "issues": "https://github.com/phpgt/CssXPath/issues",
-                "source": "https://github.com/phpgt/CssXPath/tree/v1.4.0"
+                "source": "https://github.com/phpgt/CssXPath/tree/v1.5.0"
             },
             "funding": [
                 {
@@ -21450,7 +21452,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-24T09:11:43+00:00"
+            "time": "2026-03-16T12:14:14+00:00"
         },
         {
             "name": "phpgt/dom",
