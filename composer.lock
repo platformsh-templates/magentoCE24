@@ -5352,8 +5352,8 @@
             "version": "2.0.6",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-composer-root-update-plugin-2.0.6.0.zip",
-                "shasum": "054cc1b15adee998e45619721150138e1f439423"
+                "url": "https://mirror.mage-os.org/packages/magento/composer-root-update-plugin-2.0.6.zip",
+                "shasum": "7a3e26f5a41d475c101c8d90d32926899b6f2030"
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
@@ -9513,11 +9513,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.4.20",
+            "version": "103.4.21",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.20.0.zip",
-                "shasum": "1bfac5880ba3f30a30b5c2a56a9bbf97559baf4c"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.21.0.zip",
+                "shasum": "1e846577bddd25afc2aef44e03c264b3d90cc385"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -15494,11 +15494,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.4.20",
+            "version": "103.4.21",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.20.0.zip",
-                "shasum": "4143b3eb074a0de5020215f853c85ed863fd1ba2"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.21.0.zip",
+                "shasum": "b60370a236fbf2a19258f0155744f4d7d7acb05d"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16848,11 +16848,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.4.20",
+            "version": "103.4.21",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.20.0.zip",
-                "shasum": "b84753910ead537dfbc90a1514661761dcc5453e"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.21.0.zip",
+                "shasum": "6e67e96d50c963f76a8668869f7dc5c65f7d3aec"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
