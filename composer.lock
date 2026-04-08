@@ -2063,16 +2063,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.241",
+            "version": "1.2.242",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "da109f5d7400d2df46e424d3c8bc0bda912885f1"
+                "reference": "254fb53d8d159b40e0ef858e558dc56c7d85e7e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/da109f5d7400d2df46e424d3c8bc0bda912885f1",
-                "reference": "da109f5d7400d2df46e424d3c8bc0bda912885f1",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/254fb53d8d159b40e0ef858e558dc56c7d85e7e4",
+                "reference": "254fb53d8d159b40e0ef858e558dc56c7d85e7e4",
                 "shasum": ""
             },
             "require": {
@@ -2101,9 +2101,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.241"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.242"
             },
-            "time": "2026-03-30T03:57:04+00:00"
+            "time": "2026-04-07T12:51:32+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -21609,16 +21609,16 @@
         },
         {
             "name": "phpseclib/mcrypt_compat",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/mcrypt_compat.git",
-                "reference": "cd248c07cc7b09dc73d568199eff5e8ddc4aff0d"
+                "reference": "394fcad4c3a3811b0c827ca94fb2551c43df3907"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/mcrypt_compat/zipball/cd248c07cc7b09dc73d568199eff5e8ddc4aff0d",
-                "reference": "cd248c07cc7b09dc73d568199eff5e8ddc4aff0d",
+                "url": "https://api.github.com/repos/phpseclib/mcrypt_compat/zipball/394fcad4c3a3811b0c827ca94fb2551c43df3907",
+                "reference": "394fcad4c3a3811b0c827ca94fb2551c43df3907",
                 "shasum": ""
             },
             "require": {
@@ -21673,7 +21673,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-10T00:56:59+00:00"
+            "time": "2026-04-08T02:35:07+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
