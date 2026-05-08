@@ -9509,11 +9509,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.4.23",
+            "version": "103.4.24",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.23.0.zip",
-                "shasum": "2f497fa855f25ac8bb1c21bfa69131b7120ccce9"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.24.0.zip",
+                "shasum": "7a8fc58181f0c642766900c757c74d4dcbc02316"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -15490,11 +15490,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.4.23",
+            "version": "103.4.24",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.23.0.zip",
-                "shasum": "e641ee93ecbd6d9fc5c6ebb60664cf300b16103f"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.24.0.zip",
+                "shasum": "66a2b6bba8eef1de9c0c5b0a393ff40cd4f529c5"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16844,11 +16844,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.4.23",
+            "version": "103.4.24",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.23.0.zip",
-                "shasum": "0746bcbb5de68f5d3ea110c0083913d301ccc7fb"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.24.0.zip",
+                "shasum": "cef0f06d7ba16f17a912cc82efb5c70f3b36a6e3"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
