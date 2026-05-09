@@ -9509,11 +9509,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.4.23",
+            "version": "103.4.24",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.23.0.zip",
-                "shasum": "2f497fa855f25ac8bb1c21bfa69131b7120ccce9"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.24.0.zip",
+                "shasum": "7a8fc58181f0c642766900c757c74d4dcbc02316"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -15490,11 +15490,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.4.23",
+            "version": "103.4.24",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.23.0.zip",
-                "shasum": "e641ee93ecbd6d9fc5c6ebb60664cf300b16103f"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.24.0.zip",
+                "shasum": "66a2b6bba8eef1de9c0c5b0a393ff40cd4f529c5"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16844,11 +16844,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.4.23",
+            "version": "103.4.24",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.23.0.zip",
-                "shasum": "0746bcbb5de68f5d3ea110c0083913d301ccc7fb"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.24.0.zip",
+                "shasum": "cef0f06d7ba16f17a912cc82efb5c70f3b36a6e3"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -19169,16 +19169,16 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.78",
+            "version": "1.1.79",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/quality-patches.git",
-                "reference": "3c0a9a3259505e3d03a4c3d99d2519996317afe4"
+                "reference": "db8d3d8b0f1134a1b3b93fba2dd7254ed1977665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/quality-patches/zipball/3c0a9a3259505e3d03a4c3d99d2519996317afe4",
-                "reference": "3c0a9a3259505e3d03a4c3d99d2519996317afe4",
+                "url": "https://api.github.com/repos/magento/quality-patches/zipball/db8d3d8b0f1134a1b3b93fba2dd7254ed1977665",
+                "reference": "db8d3d8b0f1134a1b3b93fba2dd7254ed1977665",
                 "shasum": ""
             },
             "require": {
@@ -19234,10 +19234,10 @@
             ],
             "description": "Provides quality patches for AdobeCommerce & Magento OpenSource",
             "support": {
-                "source": "https://github.com/magento/quality-patches/tree/1.1.78",
+                "source": "https://github.com/magento/quality-patches/tree/1.1.79",
                 "issues": "https://github.com/magento/quality-patches/issues"
             },
-            "time": "2026-04-10T22:17:53+00:00"
+            "time": "2026-05-08T05:48:03+00:00"
         },
         {
             "name": "magento/security-package",
