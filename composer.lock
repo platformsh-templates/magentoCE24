@@ -4140,16 +4140,16 @@
         },
         {
             "name": "laminas/laminas-router",
-            "version": "3.18.0",
+            "version": "3.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-router.git",
-                "reference": "e9a3dcf704cfc2ea47da6c2275409c2187034f8f"
+                "reference": "c1d572280573afefad9285cd50e1cda678de726e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/e9a3dcf704cfc2ea47da6c2275409c2187034f8f",
-                "reference": "e9a3dcf704cfc2ea47da6c2275409c2187034f8f",
+                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/c1d572280573afefad9285cd50e1cda678de726e",
+                "reference": "c1d572280573afefad9285cd50e1cda678de726e",
                 "shasum": ""
             },
             "require": {
@@ -4205,11 +4205,11 @@
             },
             "funding": [
                 {
-                    "url": "https://funding.communitybridge.org/projects/laminas-project",
-                    "type": "community_bridge"
+                    "url": "https://crowdfunding.linuxfoundation.org/initiatives/laminas-project",
+                    "type": "custom"
                 }
             ],
-            "time": "2026-03-02T14:54:55+00:00"
+            "time": "2026-06-26T14:41:47+00:00"
         },
         {
             "name": "laminas/laminas-server",
