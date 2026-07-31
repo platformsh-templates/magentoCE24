@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.389.1",
+            "version": "3.389.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "98506321be0157d78a2c44424a8fce3a4842081d"
+                "reference": "784e0fb95e752e55c4654b5800b900c78f6d3990"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/98506321be0157d78a2c44424a8fce3a4842081d",
-                "reference": "98506321be0157d78a2c44424a8fce3a4842081d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/784e0fb95e752e55c4654b5800b900c78f6d3990",
+                "reference": "784e0fb95e752e55c4654b5800b900c78f6d3990",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.389.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.389.2"
             },
-            "time": "2026-07-27T18:09:06+00:00"
+            "time": "2026-07-28T18:10:25+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -5180,8 +5180,8 @@
             "version": "1.10.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/magento/composer-1.10.2.zip",
-                "shasum": "c0a570e9ebffbfd25d8e08c512d2f315844f8d72"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-composer-1.10.2.0.zip",
+                "shasum": "017c893ff82c2c49514842ee6029bf6ab9012dfa"
             },
             "require": {
                 "composer/composer": "^2.1.13",
@@ -5248,8 +5248,8 @@
             "version": "2.0.6",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/magento/composer-root-update-plugin-2.0.6.zip",
-                "shasum": "7a3e26f5a41d475c101c8d90d32926899b6f2030"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-composer-root-update-plugin-2.0.6.0.zip",
+                "shasum": "054cc1b15adee998e45619721150138e1f439423"
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
@@ -14910,11 +14910,11 @@
         },
         {
             "name": "magento/module-payment-services-base",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-base-2.15.0.0.zip",
-                "shasum": "439d5a22b2b2c9a0a6e1f976fd796f315726d0e5"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-base-2.16.0.0.zip",
+                "shasum": "66446d19f9334c63f2617103a39dffe3e97846b2"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -14922,10 +14922,10 @@
                 "magento/module-config": ">=101.2.4 <102.0.0",
                 "magento/module-directory": ">=100.4.4 <101.0.0",
                 "magento/module-payment": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-dashboard": "2.15.0",
-                "magento/module-payment-services-paypal": "2.15.0",
+                "magento/module-payment-services-dashboard": "2.16.0",
+                "magento/module-payment-services-paypal": "2.16.0",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
-                "magento/module-service-proxy": "2.15.0",
+                "magento/module-service-proxy": "2.16.0",
                 "magento/module-services-id": "^3.2.0",
                 "magento/module-services-id-graph-ql-server": "^1.1.0",
                 "magento/module-services-id-layout": "^1.1.0",
@@ -14954,20 +14954,20 @@
         },
         {
             "name": "magento/module-payment-services-dashboard",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-dashboard-2.15.0.0.zip",
-                "shasum": "a5f27b6d591caa6dad833d799cde2b962fd530e2"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-dashboard-2.16.0.0.zip",
+                "shasum": "55b384fff0ae8af67a0c566ef6c5f249ede8d096"
             },
             "require": {
                 "ext-json": "*",
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-backend": ">=102.0.4 <103.0.0",
                 "magento/module-config": ">=101.2.4 <102.0.0",
-                "magento/module-payment-services-base": "2.15.0",
-                "magento/module-payment-services-paypal": "2.15.0",
-                "magento/module-service-proxy": "2.15.0",
+                "magento/module-payment-services-base": "2.16.0",
+                "magento/module-payment-services-paypal": "2.16.0",
+                "magento/module-service-proxy": "2.16.0",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0"
             },
@@ -14988,11 +14988,11 @@
         },
         {
             "name": "magento/module-payment-services-paypal",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-2.15.0.0.zip",
-                "shasum": "4e0c541985eefb3a2ce90aa20d968fe92a744984"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-2.16.0.0.zip",
+                "shasum": "88a5e1a1bb850cb4abb79053b1c8065f58a9fe46"
             },
             "require": {
                 "giggsey/libphonenumber-for-php": "^9.0",
@@ -15010,12 +15010,12 @@
                 "magento/module-instant-purchase": ">=100.4.3 <101.0.0",
                 "magento/module-integration": ">=100.4.4 <101.0.0",
                 "magento/module-payment": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-base": "2.15.0",
+                "magento/module-payment-services-base": "2.16.0",
                 "magento/module-query-xml": "^103.0.3",
                 "magento/module-quote": ">=101.2.4 <102.0.0",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
                 "magento/module-sales-rule": ">=101.2.4 <102.0.0",
-                "magento/module-service-proxy": "2.15.0",
+                "magento/module-service-proxy": "2.16.0",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "magento/module-tax": ">=100.4.4 <101.0.0",
                 "magento/module-theme": ">=101.1.4 <102.0.0",
@@ -15039,18 +15039,18 @@
         },
         {
             "name": "magento/module-payment-services-paypal-graph-ql",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-graph-ql-2.15.0.0.zip",
-                "shasum": "c4d66de3472cc87f1de55a450daacb121a85ad1f"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-graph-ql-2.16.0.0.zip",
+                "shasum": "a6062b86762d74ba69126ed16db1b3158afcba8d"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-csp": ">=100.4.3 <101.0.0",
                 "magento/module-customer": ">=103.0.4 <104.0.0",
                 "magento/module-graph-ql": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-paypal": "2.15.0",
+                "magento/module-payment-services-paypal": "2.16.0",
                 "magento/module-quote": ">=101.2.4 <102.0.0",
                 "magento/module-quote-graph-ql": ">=100.4.4 <101.0.0",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
@@ -15075,20 +15075,20 @@
         },
         {
             "name": "magento/module-payment-services-saas-export",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-saas-export-2.15.0.0.zip",
-                "shasum": "9f7a0c08f7f3907a5e04e0f1aed98fed4714c840"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-saas-export-2.16.0.0.zip",
+                "shasum": "9f4a547e6efa7a9cbb5ca622a427f7c9b5395ae7"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-data-exporter": "^103.0.3",
-                "magento/module-payment-services-base": "2.15.0",
+                "magento/module-payment-services-base": "2.16.0",
                 "magento/module-saas-common": "^103.0.3",
-                "magento/module-sales-data-exporter": "2.15.0",
+                "magento/module-sales-data-exporter": "2.16.0",
                 "magento/module-services-id": "^3.2.0",
-                "magento/module-store-data-exporter": "2.15.0",
+                "magento/module-store-data-exporter": "2.16.0",
                 "magento/services-connector": "^1.3.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0"
             },
@@ -16850,11 +16850,11 @@
         },
         {
             "name": "magento/module-sales-data-exporter",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-sales-data-exporter-2.15.0.0.zip",
-                "shasum": "8112a4cc7156e6371244187b3146da6b74234e6b"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-sales-data-exporter-2.16.0.0.zip",
+                "shasum": "325407b966d407132894bebd643674e104392b47"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -17250,17 +17250,17 @@
         },
         {
             "name": "magento/module-service-proxy",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-service-proxy-2.15.0.0.zip",
-                "shasum": "745b8e207cec5c9ee182eaa6338df547dbf31cf7"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-service-proxy-2.16.0.0.zip",
+                "shasum": "59ba555a651d8f394098336cbffbff39e3833ee7"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-backend": ">=102.0.4 <103.0.0",
                 "magento/module-page-cache": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-paypal": "2.15.0",
+                "magento/module-payment-services-paypal": "2.16.0",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0"
             },
@@ -17528,11 +17528,11 @@
         },
         {
             "name": "magento/module-store-data-exporter",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-store-data-exporter-2.15.0.0.zip",
-                "shasum": "c7298a42736e7eb4e4c91a948f49e77c702a75c1"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-store-data-exporter-2.16.0.0.zip",
+                "shasum": "f537127cdff63ba88f7d5746c8d78bb7d1ec798d"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -18701,22 +18701,22 @@
         },
         {
             "name": "magento/payment-services",
-            "version": "2.15.0",
+            "version": "2.16.0",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-payment-services-2.15.0.0.zip",
-                "shasum": "6ac7de8bf8aa8974f928a5084150f38852ad4dc0"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-payment-services-2.16.0.0.zip",
+                "shasum": "37125d21c9a3c6f8589fdfed6f85f03d4187f1cb"
             },
             "require": {
                 "giggsey/libphonenumber-for-php": "^9.0",
-                "magento/module-payment-services-base": "2.15.0",
-                "magento/module-payment-services-dashboard": "2.15.0",
-                "magento/module-payment-services-paypal": "2.15.0",
-                "magento/module-payment-services-paypal-graph-ql": "2.15.0",
-                "magento/module-payment-services-saas-export": "2.15.0",
-                "magento/module-sales-data-exporter": "2.15.0",
-                "magento/module-service-proxy": "2.15.0",
-                "magento/module-store-data-exporter": "2.15.0",
+                "magento/module-payment-services-base": "2.16.0",
+                "magento/module-payment-services-dashboard": "2.16.0",
+                "magento/module-payment-services-paypal": "2.16.0",
+                "magento/module-payment-services-paypal-graph-ql": "2.16.0",
+                "magento/module-payment-services-saas-export": "2.16.0",
+                "magento/module-sales-data-exporter": "2.16.0",
+                "magento/module-service-proxy": "2.16.0",
+                "magento/module-store-data-exporter": "2.16.0",
                 "magento/services-id": "^3.2.0"
             },
             "type": "metapackage",
@@ -24710,16 +24710,16 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.38.1",
+            "version": "v1.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "e9247d281d694a5120554d9afaf54e070e88a603"
+                "reference": "bb899c1db0aa8127dc3afe8cda4a67eb24915f8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/e9247d281d694a5120554d9afaf54e070e88a603",
-                "reference": "e9247d281d694a5120554d9afaf54e070e88a603",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/bb899c1db0aa8127dc3afe8cda4a67eb24915f8d",
+                "reference": "bb899c1db0aa8127dc3afe8cda4a67eb24915f8d",
                 "shasum": ""
             },
             "require": {
@@ -24768,7 +24768,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.38.1"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.41.0"
             },
             "funding": [
                 {
@@ -24788,7 +24788,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-26T05:58:03+00:00"
+            "time": "2026-07-28T08:25:59+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -25373,16 +25373,16 @@
         },
         {
             "name": "symfony/polyfill-php83",
-            "version": "v1.38.2",
+            "version": "v1.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php83.git",
-                "reference": "796a26abb75ce49f3a84433cd81bf1009d73d5f8"
+                "reference": "5ea99087fb99c273a9b9236ed4c31e78b16103c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/796a26abb75ce49f3a84433cd81bf1009d73d5f8",
-                "reference": "796a26abb75ce49f3a84433cd81bf1009d73d5f8",
+                "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/5ea99087fb99c273a9b9236ed4c31e78b16103c6",
+                "reference": "5ea99087fb99c273a9b9236ed4c31e78b16103c6",
                 "shasum": ""
             },
             "require": {
@@ -25429,7 +25429,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php83/tree/v1.38.2"
+                "source": "https://github.com/symfony/polyfill-php83/tree/v1.41.0"
             },
             "funding": [
                 {
@@ -25449,7 +25449,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-27T06:51:48+00:00"
+            "time": "2026-07-01T12:47:55+00:00"
         },
         {
             "name": "symfony/polyfill-php84",
@@ -25533,16 +25533,16 @@
         },
         {
             "name": "symfony/polyfill-php85",
-            "version": "v1.38.1",
+            "version": "v1.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php85.git",
-                "reference": "ba2ba04f3352cfa2dcbbcb90aee13ed967f505b1"
+                "reference": "255fab485aaa1006ed411040c42aecd7b5302d7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php85/zipball/ba2ba04f3352cfa2dcbbcb90aee13ed967f505b1",
-                "reference": "ba2ba04f3352cfa2dcbbcb90aee13ed967f505b1",
+                "url": "https://api.github.com/repos/symfony/polyfill-php85/zipball/255fab485aaa1006ed411040c42aecd7b5302d7a",
+                "reference": "255fab485aaa1006ed411040c42aecd7b5302d7a",
                 "shasum": ""
             },
             "require": {
@@ -25589,7 +25589,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php85/tree/v1.38.1"
+                "source": "https://github.com/symfony/polyfill-php85/tree/v1.41.0"
             },
             "funding": [
                 {
@@ -25609,7 +25609,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-26T02:25:22+00:00"
+            "time": "2026-07-01T12:47:55+00:00"
         },
         {
             "name": "symfony/process",
@@ -26893,16 +26893,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.35.0",
+            "version": "v15.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "b67de08a46d42a5f606e455851882c27d3a3aba8"
+                "reference": "1ef0e90a44330949d10aff2c06fa39d1c154f0c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/b67de08a46d42a5f606e455851882c27d3a3aba8",
-                "reference": "b67de08a46d42a5f606e455851882c27d3a3aba8",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/1ef0e90a44330949d10aff2c06fa39d1c154f0c5",
+                "reference": "1ef0e90a44330949d10aff2c06fa39d1c154f0c5",
                 "shasum": ""
             },
             "require": {
@@ -26915,12 +26915,12 @@
                 "amphp/http-server": "^2.1 || ^3",
                 "dms/phpunit-arraysubset-asserts": "dev-master",
                 "ergebnis/composer-normalize": "^2.28",
-                "friendsofphp/php-cs-fixer": "3.95.15",
+                "friendsofphp/php-cs-fixer": "3.95.17",
                 "mll-lab/php-cs-fixer-config": "5.13.0",
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "2.2.5",
+                "phpstan/phpstan": "2.2.6",
                 "phpstan/phpstan-phpunit": "2.0.18",
                 "phpstan/phpstan-strict-rules": "2.0.12",
                 "phpunit/phpunit": "^9.5 || ^10.5.21 || ^11",
@@ -26957,7 +26957,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.35.0"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.37.0"
             },
             "funding": [
                 {
@@ -26969,7 +26969,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-07-23T06:59:54+00:00"
+            "time": "2026-07-28T12:30:28+00:00"
         },
         {
             "name": "wikimedia/less.php",
