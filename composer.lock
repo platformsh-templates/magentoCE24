@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.390.2",
+            "version": "3.390.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a09e95bf062e15b7343f9c1362fd45c7a0dec39b"
+                "reference": "8026ec372223fb3ffa010b96ca14a1df329085f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a09e95bf062e15b7343f9c1362fd45c7a0dec39b",
-                "reference": "a09e95bf062e15b7343f9c1362fd45c7a0dec39b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8026ec372223fb3ffa010b96ca14a1df329085f5",
+                "reference": "8026ec372223fb3ffa010b96ca14a1df329085f5",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.390.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.390.3"
             },
-            "time": "2026-07-31T18:06:07+00:00"
+            "time": "2026-08-03T18:28:24+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2103,16 +2103,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.245",
+            "version": "1.2.246",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "2f0e861191b959c3332f81c682c097e0ce73ef49"
+                "reference": "d719f9d988c2ebcfff4442841ce48c86b994758b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/2f0e861191b959c3332f81c682c097e0ce73ef49",
-                "reference": "2f0e861191b959c3332f81c682c097e0ce73ef49",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/d719f9d988c2ebcfff4442841ce48c86b994758b",
+                "reference": "d719f9d988c2ebcfff4442841ce48c86b994758b",
                 "shasum": ""
             },
             "require": {
@@ -2141,9 +2141,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.245"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.246"
             },
-            "time": "2026-07-07T12:35:51+00:00"
+            "time": "2026-08-03T07:36:24+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -2295,16 +2295,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "9.0.35",
+            "version": "9.0.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "4e7e15a26477b65090fdc59cd56d35ca747cb126"
+                "reference": "66434ecf051386a54a54c18c7853aeb85dfb7a1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/4e7e15a26477b65090fdc59cd56d35ca747cb126",
-                "reference": "4e7e15a26477b65090fdc59cd56d35ca747cb126",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/66434ecf051386a54a54c18c7853aeb85dfb7a1e",
+                "reference": "66434ecf051386a54a54c18c7853aeb85dfb7a1e",
                 "shasum": ""
             },
             "require": {
@@ -2367,7 +2367,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2026-07-17T13:12:34+00:00"
+            "time": "2026-08-03T07:50:57+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -19359,16 +19359,16 @@
         },
         {
             "name": "magento/zend-db",
-            "version": "1.16.3",
+            "version": "1.16.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-zend-db.git",
-                "reference": "aefb2019b0eb8423ee05c9e4008360e8dd0497f9"
+                "reference": "f113209270c700bebaae05480dddcd05a542c9d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-zend-db/zipball/aefb2019b0eb8423ee05c9e4008360e8dd0497f9",
-                "reference": "aefb2019b0eb8423ee05c9e4008360e8dd0497f9",
+                "url": "https://api.github.com/repos/magento/magento-zend-db/zipball/f113209270c700bebaae05480dddcd05a542c9d1",
+                "reference": "f113209270c700bebaae05480dddcd05a542c9d1",
                 "shasum": ""
             },
             "require": {
@@ -19405,9 +19405,9 @@
             ],
             "support": {
                 "issues": "https://github.com/magento/magento-zend-db/issues",
-                "source": "https://github.com/magento/magento-zend-db/tree/1.16.3"
+                "source": "https://github.com/magento/magento-zend-db/tree/1.16.4"
             },
-            "time": "2025-12-22T11:59:33+00:00"
+            "time": "2026-08-03T11:45:35+00:00"
         },
         {
             "name": "magento/zend-exception",
@@ -19615,16 +19615,16 @@
         },
         {
             "name": "magento/zend-pdf",
-            "version": "1.16.6",
+            "version": "1.16.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-zend-pdf.git",
-                "reference": "26a51f45b09be173447f5957254311bdda5c4a8a"
+                "reference": "3c1bc0e69c15666c29b202c37e0bd5897f4db69e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-zend-pdf/zipball/26a51f45b09be173447f5957254311bdda5c4a8a",
-                "reference": "26a51f45b09be173447f5957254311bdda5c4a8a",
+                "url": "https://api.github.com/repos/magento/magento-zend-pdf/zipball/3c1bc0e69c15666c29b202c37e0bd5897f4db69e",
+                "reference": "3c1bc0e69c15666c29b202c37e0bd5897f4db69e",
                 "shasum": ""
             },
             "require": {
@@ -19666,9 +19666,9 @@
             ],
             "support": {
                 "issues": "https://github.com/magento/magento-zend-pdf/issues",
-                "source": "https://github.com/magento/magento-zend-pdf/tree/1.16.6"
+                "source": "https://github.com/magento/magento-zend-pdf/tree/1.16.7"
             },
-            "time": "2025-12-11T10:52:59+00:00"
+            "time": "2026-08-03T08:38:57+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
@@ -21553,16 +21553,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.55",
+            "version": "3.0.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "db9744e6d47e742b1f974e965ad49bdd041105af"
+                "reference": "7adbbe38cde25e2df2116dbf2673c407e24fa305"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/db9744e6d47e742b1f974e965ad49bdd041105af",
-                "reference": "db9744e6d47e742b1f974e965ad49bdd041105af",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7adbbe38cde25e2df2116dbf2673c407e24fa305",
+                "reference": "7adbbe38cde25e2df2116dbf2673c407e24fa305",
                 "shasum": ""
             },
             "require": {
@@ -21643,7 +21643,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.55"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.56"
             },
             "funding": [
                 {
@@ -21659,7 +21659,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-14T23:24:10+00:00"
+            "time": "2026-08-03T04:36:50+00:00"
         },
         {
             "name": "predis/predis",
