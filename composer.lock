@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.392.0",
+            "version": "3.392.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "c6bb281dfbfd4c8c2d0bd2c3b95242af41bb1b4c"
+                "reference": "a49869bffa584611d22742708e69c632e1c18beb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c6bb281dfbfd4c8c2d0bd2c3b95242af41bb1b4c",
-                "reference": "c6bb281dfbfd4c8c2d0bd2c3b95242af41bb1b4c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a49869bffa584611d22742708e69c632e1c18beb",
+                "reference": "a49869bffa584611d22742708e69c632e1c18beb",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.392.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.392.1"
             },
-            "time": "2026-08-11T18:12:10+00:00"
+            "time": "2026-08-12T18:06:57+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2103,16 +2103,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.246",
+            "version": "1.2.247",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "d719f9d988c2ebcfff4442841ce48c86b994758b"
+                "reference": "00ed2da64575feab70913170aa3ebb2de7a587b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/d719f9d988c2ebcfff4442841ce48c86b994758b",
-                "reference": "d719f9d988c2ebcfff4442841ce48c86b994758b",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/00ed2da64575feab70913170aa3ebb2de7a587b0",
+                "reference": "00ed2da64575feab70913170aa3ebb2de7a587b0",
                 "shasum": ""
             },
             "require": {
@@ -2141,9 +2141,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.246"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.247"
             },
-            "time": "2026-08-03T07:36:24+00:00"
+            "time": "2026-08-12T06:42:31+00:00"
         },
         {
             "name": "firebase/php-jwt",
