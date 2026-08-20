@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.393.2",
+            "version": "3.393.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "0a46ff5138d21adbb312729f564a1c14f54909c9"
+                "reference": "ef4cc0f93006e68f5ece1c5afb02c1bac527b6ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0a46ff5138d21adbb312729f564a1c14f54909c9",
-                "reference": "0a46ff5138d21adbb312729f564a1c14f54909c9",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ef4cc0f93006e68f5ece1c5afb02c1bac527b6ad",
+                "reference": "ef4cc0f93006e68f5ece1c5afb02c1bac527b6ad",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.393.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.393.3"
             },
-            "time": "2026-08-19T18:38:54+00:00"
+            "time": "2026-08-20T18:21:31+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -5180,8 +5180,8 @@
             "version": "1.10.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-composer-1.10.2.0.zip",
-                "shasum": "017c893ff82c2c49514842ee6029bf6ab9012dfa"
+                "url": "https://mirror.mage-os.org/packages/magento/composer-1.10.2.zip",
+                "shasum": "c0a570e9ebffbfd25d8e08c512d2f315844f8d72"
             },
             "require": {
                 "composer/composer": "^2.1.13",
@@ -5248,8 +5248,8 @@
             "version": "2.0.6",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-composer-root-update-plugin-2.0.6.0.zip",
-                "shasum": "054cc1b15adee998e45619721150138e1f439423"
+                "url": "https://mirror.mage-os.org/packages/magento/composer-root-update-plugin-2.0.6.zip",
+                "shasum": "7a3e26f5a41d475c101c8d90d32926899b6f2030"
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
@@ -5273,16 +5273,16 @@
         },
         {
             "name": "magento/ece-tools",
-            "version": "2002.2.12",
+            "version": "2002.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/ece-tools.git",
-                "reference": "97c5e62b438ca741031877a530268f3ca311c3c8"
+                "reference": "9fb7822bc027baf84da89524e58780951f72e1ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/ece-tools/zipball/97c5e62b438ca741031877a530268f3ca311c3c8",
-                "reference": "97c5e62b438ca741031877a530268f3ca311c3c8",
+                "url": "https://api.github.com/repos/magento/ece-tools/zipball/9fb7822bc027baf84da89524e58780951f72e1ef",
+                "reference": "9fb7822bc027baf84da89524e58780951f72e1ef",
                 "shasum": ""
             },
             "require": {
@@ -5389,10 +5389,10 @@
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
             "support": {
-                "source": "https://github.com/magento/ece-tools/tree/2002.2.12",
+                "source": "https://github.com/magento/ece-tools/tree/2002.2.13",
                 "issues": "https://github.com/magento/ece-tools/issues"
             },
-            "time": "2026-07-20T11:51:01+00:00"
+            "time": "2026-08-19T14:02:15+00:00"
         },
         {
             "name": "magento/framework",
@@ -19966,20 +19966,20 @@
         },
         {
             "name": "n98/magerun2-dist",
-            "version": "9.5.1",
+            "version": "10.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2-dist.git",
-                "reference": "74c0798bdbb9c4039ee04cd0d7960e034a28f43a"
+                "reference": "ffed0ceaaac7bb116f9c358a848457db6166495a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/74c0798bdbb9c4039ee04cd0d7960e034a28f43a",
-                "reference": "74c0798bdbb9c4039ee04cd0d7960e034a28f43a",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/ffed0ceaaac7bb116f9c358a848457db6166495a",
+                "reference": "ffed0ceaaac7bb116f9c358a848457db6166495a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.0"
+                "php": ">=8.2.0"
             },
             "replace": {
                 "n98/magerun2": "self.version"
@@ -20002,9 +20002,9 @@
             ],
             "support": {
                 "issues": "https://github.com/netz98/n98-magerun2/issues",
-                "source": "https://github.com/netz98/n98-magerun2-dist/tree/9.5.1"
+                "source": "https://github.com/netz98/n98-magerun2-dist/tree/10.0.0"
             },
-            "time": "2026-05-21T15:34:38+00:00"
+            "time": "2026-08-20T05:58:19+00:00"
         },
         {
             "name": "nesbot/carbon",
