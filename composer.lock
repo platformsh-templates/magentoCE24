@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.394.0",
+            "version": "3.394.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "8a85b79ee9e9009bf19fa31659451124855447ad"
+                "reference": "577edcbe852e463a1a52c269917303f850359e4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8a85b79ee9e9009bf19fa31659451124855447ad",
-                "reference": "8a85b79ee9e9009bf19fa31659451124855447ad",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/577edcbe852e463a1a52c269917303f850359e4e",
+                "reference": "577edcbe852e463a1a52c269917303f850359e4e",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.1"
             },
-            "time": "2026-08-25T19:22:47+00:00"
+            "time": "2026-08-26T18:32:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -9339,11 +9339,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.4.31",
+            "version": "103.4.32",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.31.0.zip",
-                "shasum": "60dadb0942d810c8a4912c44cfd9b21c48f1c88a"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.32.0.zip",
+                "shasum": "4e38cab2cf2d85e517a801152d3ef380e28ec038"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -15332,11 +15332,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.4.31",
+            "version": "103.4.32",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.31.0.zip",
-                "shasum": "2eba94ba725894945f9524b53747f27d2ac95631"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.32.0.zip",
+                "shasum": "cacd198d53443a5b54e8740b8d82805703fa2c3e"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16719,11 +16719,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.4.31",
+            "version": "103.4.32",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.31.0.zip",
-                "shasum": "902a24871ec4ae0dee0797fbc0e7ef50efb37233"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.32.0.zip",
+                "shasum": "cd65cce22a1db3209aca53deeac7b4f0d9b28528"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -21543,16 +21543,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.56",
+            "version": "3.0.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "7adbbe38cde25e2df2116dbf2673c407e24fa305"
+                "reference": "d17e0ddaeaf6f22f7e007cbb437d78792fe2a0e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7adbbe38cde25e2df2116dbf2673c407e24fa305",
-                "reference": "7adbbe38cde25e2df2116dbf2673c407e24fa305",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d17e0ddaeaf6f22f7e007cbb437d78792fe2a0e4",
+                "reference": "d17e0ddaeaf6f22f7e007cbb437d78792fe2a0e4",
                 "shasum": ""
             },
             "require": {
@@ -21633,7 +21633,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.56"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.57"
             },
             "funding": [
                 {
@@ -21649,7 +21649,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-03T04:36:50+00:00"
+            "time": "2026-08-26T12:13:21+00:00"
         },
         {
             "name": "predis/predis",
