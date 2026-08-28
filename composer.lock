@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.394.1",
+            "version": "3.394.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "577edcbe852e463a1a52c269917303f850359e4e"
+                "reference": "3123c895f535792857e8c2ce345ee025606d648d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/577edcbe852e463a1a52c269917303f850359e4e",
-                "reference": "577edcbe852e463a1a52c269917303f850359e4e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3123c895f535792857e8c2ce345ee025606d648d",
+                "reference": "3123c895f535792857e8c2ce345ee025606d648d",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.2"
             },
-            "time": "2026-08-26T18:32:55+00:00"
+            "time": "2026-08-27T18:54:08+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -990,16 +990,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.10.2",
+            "version": "2.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "8d4439f572a97670a9edc039eb3b093cc976b4bc"
+                "reference": "f0de0bf90226853b841672f086d8b58b02332504"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/8d4439f572a97670a9edc039eb3b093cc976b4bc",
-                "reference": "8d4439f572a97670a9edc039eb3b093cc976b4bc",
+                "url": "https://api.github.com/repos/composer/composer/zipball/f0de0bf90226853b841672f086d8b58b02332504",
+                "reference": "f0de0bf90226853b841672f086d8b58b02332504",
                 "shasum": ""
             },
             "require": {
@@ -1010,6 +1010,8 @@
                 "composer/semver": "^3.3",
                 "composer/spdx-licenses": "^1.5.7",
                 "composer/xdebug-handler": "^2.0.2 || ^3.0.3",
+                "ext-filter": "*",
+                "ext-hash": "*",
                 "ext-json": "*",
                 "justinrainbow/json-schema": "^6.5.1",
                 "php": "^7.2.5 || ^8.0",
@@ -1087,7 +1089,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.10.2"
+                "source": "https://github.com/composer/composer/tree/2.10.3"
             },
             "funding": [
                 {
@@ -1099,7 +1101,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-01T09:24:45+00:00"
+            "time": "2026-08-27T11:34:23+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -19956,16 +19958,16 @@
         },
         {
             "name": "n98/magerun2-dist",
-            "version": "10.0.1",
+            "version": "10.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2-dist.git",
-                "reference": "7318f3338c39be9b5e45896a201ccb4b083b2f63"
+                "reference": "44d3a3194302a4a7d0e3965c028945620025529a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/7318f3338c39be9b5e45896a201ccb4b083b2f63",
-                "reference": "7318f3338c39be9b5e45896a201ccb4b083b2f63",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/44d3a3194302a4a7d0e3965c028945620025529a",
+                "reference": "44d3a3194302a4a7d0e3965c028945620025529a",
                 "shasum": ""
             },
             "require": {
@@ -19992,9 +19994,9 @@
             ],
             "support": {
                 "issues": "https://github.com/netz98/n98-magerun2/issues",
-                "source": "https://github.com/netz98/n98-magerun2-dist/tree/10.0.1"
+                "source": "https://github.com/netz98/n98-magerun2-dist/tree/10.0.2"
             },
-            "time": "2026-08-24T19:12:03+00:00"
+            "time": "2026-08-27T15:28:13+00:00"
         },
         {
             "name": "nesbot/carbon",
