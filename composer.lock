@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.394.2",
+            "version": "3.394.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3123c895f535792857e8c2ce345ee025606d648d"
+                "reference": "d015718cd1becf0be9f75a1e72a7401453de4f3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3123c895f535792857e8c2ce345ee025606d648d",
-                "reference": "3123c895f535792857e8c2ce345ee025606d648d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d015718cd1becf0be9f75a1e72a7401453de4f3c",
+                "reference": "d015718cd1becf0be9f75a1e72a7401453de4f3c",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.3"
             },
-            "time": "2026-08-27T18:54:08+00:00"
+            "time": "2026-08-28T18:18:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -383,16 +383,16 @@
         },
         {
             "name": "brick/math",
-            "version": "0.17.2",
+            "version": "0.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "8189e751995f9e15729c1aa2f89fa8f166ffe818"
+                "reference": "82944324d1c1bdb2c2618e89978d4e2ad78d69ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/8189e751995f9e15729c1aa2f89fa8f166ffe818",
-                "reference": "8189e751995f9e15729c1aa2f89fa8f166ffe818",
+                "url": "https://api.github.com/repos/brick/math/zipball/82944324d1c1bdb2c2618e89978d4e2ad78d69ad",
+                "reference": "82944324d1c1bdb2c2618e89978d4e2ad78d69ad",
                 "shasum": ""
             },
             "require": {
@@ -430,7 +430,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.17.2"
+                "source": "https://github.com/brick/math/tree/0.18.0"
             },
             "funding": [
                 {
@@ -438,7 +438,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-25T20:34:43+00:00"
+            "time": "2026-06-14T18:21:03+00:00"
         },
         {
             "name": "brick/phonenumber",
@@ -26708,20 +26708,20 @@
         },
         {
             "name": "web-token/jwt-framework",
-            "version": "4.1.7",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-framework.git",
-                "reference": "a63c5521df18570ff195d21e6896ffb629042134"
+                "reference": "949247b7bdc699872faa8d6f23b3f20c98761126"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/a63c5521df18570ff195d21e6896ffb629042134",
-                "reference": "a63c5521df18570ff195d21e6896ffb629042134",
+                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/949247b7bdc699872faa8d6f23b3f20c98761126",
+                "reference": "949247b7bdc699872faa8d6f23b3f20c98761126",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.12|^0.13|^0.14|^0.15|^0.16|^0.17",
+                "brick/math": "^0.12|^0.13|^0.14|^0.15|^0.16|^0.17|^0.18|^0.19",
                 "ext-openssl": "*",
                 "php": ">=8.2",
                 "psr/clock": "^1.0",
@@ -26730,6 +26730,7 @@
                 "symfony/config": "^7.0|^8.0",
                 "symfony/console": "^7.0|^8.0",
                 "symfony/dependency-injection": "^7.0|^8.0",
+                "symfony/deprecation-contracts": "^2.5|^3.0",
                 "symfony/event-dispatcher": "^7.0|^8.0",
                 "symfony/http-client-contracts": "^3.4",
                 "symfony/http-kernel": "^7.0|^8.0"
@@ -26809,7 +26810,7 @@
             ],
             "support": {
                 "issues": "https://github.com/web-token/jwt-framework/issues",
-                "source": "https://github.com/web-token/jwt-framework/tree/4.1.7"
+                "source": "https://github.com/web-token/jwt-framework/tree/4.2.1"
             },
             "funding": [
                 {
@@ -26821,7 +26822,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-06-06T18:19:13+00:00"
+            "time": "2026-08-28T12:44:34+00:00"
         },
         {
             "name": "webimpress/safe-writer",
