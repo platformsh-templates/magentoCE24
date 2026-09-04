@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.394.6",
+            "version": "3.394.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "860a8b13413adcef698afa0770f0d85f85777a78"
+                "reference": "c5e7a247fa6aeac7355d5be88f38873480789c71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/860a8b13413adcef698afa0770f0d85f85777a78",
-                "reference": "860a8b13413adcef698afa0770f0d85f85777a78",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/c5e7a247fa6aeac7355d5be88f38873480789c71",
+                "reference": "c5e7a247fa6aeac7355d5be88f38873480789c71",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.394.9"
             },
-            "time": "2026-09-01T18:09:58+00:00"
+            "time": "2026-09-04T18:07:00+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -3066,16 +3066,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "6.11.0",
+            "version": "6.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jsonrainbow/json-schema.git",
-                "reference": "7e420a943a6fbc95e60e3cf67acfbee85b3b4da7"
+                "reference": "8ef236a1a37df364b518b7411a4b5bb95b040d79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/7e420a943a6fbc95e60e3cf67acfbee85b3b4da7",
-                "reference": "7e420a943a6fbc95e60e3cf67acfbee85b3b4da7",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/8ef236a1a37df364b518b7411a4b5bb95b040d79",
+                "reference": "8ef236a1a37df364b518b7411a4b5bb95b040d79",
                 "shasum": ""
             },
             "require": {
@@ -3125,9 +3125,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
-                "source": "https://github.com/jsonrainbow/json-schema/tree/6.11.0"
+                "source": "https://github.com/jsonrainbow/json-schema/tree/6.12.0"
             },
-            "time": "2026-08-21T10:30:42+00:00"
+            "time": "2026-09-04T12:54:20+00:00"
         },
         {
             "name": "laminas/laminas-captcha",
@@ -4905,16 +4905,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.35.3",
+            "version": "3.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "5fc8404762179ae514678487b23494fd69b2309c"
+                "reference": "f7fb152932f30072d573510cbd4dd657d6475b25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5fc8404762179ae514678487b23494fd69b2309c",
-                "reference": "5fc8404762179ae514678487b23494fd69b2309c",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f7fb152932f30072d573510cbd4dd657d6475b25",
+                "reference": "f7fb152932f30072d573510cbd4dd657d6475b25",
                 "shasum": ""
             },
             "require": {
@@ -4982,9 +4982,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.35.3"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.36.0"
             },
-            "time": "2026-08-22T12:55:54+00:00"
+            "time": "2026-09-02T08:00:27+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -9341,11 +9341,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.4.33",
+            "version": "103.4.34",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.33.0.zip",
-                "shasum": "4119f885bb7bc3a93feb2396fbd05c1f9a8f3d2a"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.4.34.0.zip",
+                "shasum": "c2330daa189153f2c7e79153d1f57abaf012dd69"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -15334,11 +15334,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.4.33",
+            "version": "103.4.34",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.33.0.zip",
-                "shasum": "595140a8477c23e9ffb88f0d80fc112406704b18"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.4.34.0.zip",
+                "shasum": "063691a69507515645a5401f0899b82168e63f4e"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16721,11 +16721,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.4.33",
+            "version": "103.4.34",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.33.0.zip",
-                "shasum": "2f986a6092522464deddb2ddd51c634d890b7372"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.4.34.0.zip",
+                "shasum": "983004f298c63427d663738ccde28003e06dbf15"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -19789,16 +19789,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "3.10.0",
+            "version": "3.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "b321dd6749f0bf7189444158a3ce785cc16d69b0"
+                "reference": "147f303310f06334f03f409e49d7ad1e275ff05a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/b321dd6749f0bf7189444158a3ce785cc16d69b0",
-                "reference": "b321dd6749f0bf7189444158a3ce785cc16d69b0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/147f303310f06334f03f409e49d7ad1e275ff05a",
+                "reference": "147f303310f06334f03f409e49d7ad1e275ff05a",
                 "shasum": ""
             },
             "require": {
@@ -19876,7 +19876,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/3.10.0"
+                "source": "https://github.com/Seldaek/monolog/tree/3.11.0"
             },
             "funding": [
                 {
@@ -19888,7 +19888,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-02T08:56:05+00:00"
+            "time": "2026-09-02T12:39:56+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
