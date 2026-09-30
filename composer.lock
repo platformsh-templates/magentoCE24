@@ -5280,7 +5280,7 @@
             "version": "2002.2.14",
             "source": {
                 "type": "git",
-                "url": "git@github.com:magento/ece-tools.git",
+                "url": "https://github.com/magento/ece-tools.git",
                 "reference": "c8793e0ac88bce08cb21e63a0b1700b64ec96d69"
             },
             "dist": {
@@ -5392,6 +5392,10 @@
                 "OSL-3.0"
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
+            "support": {
+                "source": "https://github.com/magento/ece-tools/tree/2002.2.14",
+                "issues": "https://github.com/magento/ece-tools/issues"
+            },
             "time": "2026-09-08T12:52:00+00:00"
         },
         {
@@ -5864,7 +5868,7 @@
             "version": "1.1.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:magento/magento-cloud-components.git",
+                "url": "https://github.com/magento/magento-cloud-components.git",
                 "reference": "44308b3854f69bbc52797a25dca174f0615c4efb"
             },
             "dist": {
@@ -5936,6 +5940,10 @@
                 ]
             },
             "description": "Cloud Components Module for Magento 2.x",
+            "support": {
+                "source": "https://github.com/magento/magento-cloud-components/tree/1.1.4",
+                "issues": "https://github.com/magento/magento-cloud-components/issues"
+            },
             "time": "2026-03-04T14:20:20+00:00"
         },
         {
@@ -5943,7 +5951,7 @@
             "version": "1.4.9",
             "source": {
                 "type": "git",
-                "url": "git@github.com:magento/magento-cloud-docker.git",
+                "url": "https://github.com/magento/magento-cloud-docker.git",
                 "reference": "c32eacfa03954db33932fb7d98e4653656636d9f"
             },
             "dist": {
@@ -6065,6 +6073,10 @@
                 "AFL-3.0"
             ],
             "description": "Magento Cloud Docker",
+            "support": {
+                "source": "https://github.com/magento/magento-cloud-docker/tree/1.4.9",
+                "issues": "https://github.com/magento/magento-cloud-docker/issues"
+            },
             "time": "2026-07-20T11:54:45+00:00"
         },
         {
@@ -6072,7 +6084,7 @@
             "version": "1.1.14",
             "source": {
                 "type": "git",
-                "url": "git@github.com:magento/magento-cloud-patches.git",
+                "url": "https://github.com/magento/magento-cloud-patches.git",
                 "reference": "544c40754b5a05fe87d38e6c10ae26aa45745409"
             },
             "dist": {
@@ -6141,6 +6153,10 @@
                 "OSL-3.0"
             ],
             "description": "Provides critical fixes for Magento 2 Enterprise Edition",
+            "support": {
+                "source": "https://github.com/magento/magento-cloud-patches/tree/1.1.14",
+                "issues": "https://github.com/magento/magento-cloud-patches/issues"
+            },
             "time": "2026-05-06T11:17:58+00:00"
         },
         {
@@ -19055,7 +19071,7 @@
             "version": "1.1.84",
             "source": {
                 "type": "git",
-                "url": "git@github.com:magento/quality-patches.git",
+                "url": "https://github.com/magento/quality-patches.git",
                 "reference": "11d565bdde197b9c7bac859a5698e99098b48457"
             },
             "dist": {
@@ -19116,6 +19132,10 @@
                 "proprietary"
             ],
             "description": "Provides quality patches for AdobeCommerce & Magento OpenSource",
+            "support": {
+                "source": "https://github.com/magento/quality-patches/tree/1.1.84",
+                "issues": "https://github.com/magento/quality-patches/issues"
+            },
             "time": "2026-09-29T16:38:54+00:00"
         },
         {
