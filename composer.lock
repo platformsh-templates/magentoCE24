@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.399.1",
+            "version": "3.399.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "cd7cf43b7d42e49579bf3f09ab58d4724d64152c"
+                "reference": "a69c0b97b8464b059c8d2e147eab6daed5d5cd25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cd7cf43b7d42e49579bf3f09ab58d4724d64152c",
-                "reference": "cd7cf43b7d42e49579bf3f09ab58d4724d64152c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a69c0b97b8464b059c8d2e147eab6daed5d5cd25",
+                "reference": "a69c0b97b8464b059c8d2e147eab6daed5d5cd25",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.399.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.399.2"
             },
-            "time": "2026-10-02T18:16:16+00:00"
+            "time": "2026-10-06T22:19:35+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2109,16 +2109,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.248",
+            "version": "1.2.249",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "70ad3075a5f1b585cb6d1cba86960a1f514ef63f"
+                "reference": "b7e0a810e582051246870e1029326b10259eca3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/70ad3075a5f1b585cb6d1cba86960a1f514ef63f",
-                "reference": "70ad3075a5f1b585cb6d1cba86960a1f514ef63f",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/b7e0a810e582051246870e1029326b10259eca3f",
+                "reference": "b7e0a810e582051246870e1029326b10259eca3f",
                 "shasum": ""
             },
             "require": {
@@ -2147,9 +2147,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.248"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.249"
             },
-            "time": "2026-09-07T06:00:48+00:00"
+            "time": "2026-10-07T09:22:57+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -19972,16 +19972,16 @@
         },
         {
             "name": "n98/magerun2-dist",
-            "version": "10.0.2",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/netz98/n98-magerun2-dist.git",
-                "reference": "44d3a3194302a4a7d0e3965c028945620025529a"
+                "reference": "c8e7c541b77af8d5c6a93c3679a72cd27f208b1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/44d3a3194302a4a7d0e3965c028945620025529a",
-                "reference": "44d3a3194302a4a7d0e3965c028945620025529a",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/c8e7c541b77af8d5c6a93c3679a72cd27f208b1c",
+                "reference": "c8e7c541b77af8d5c6a93c3679a72cd27f208b1c",
                 "shasum": ""
             },
             "require": {
@@ -20008,9 +20008,9 @@
             ],
             "support": {
                 "issues": "https://github.com/netz98/n98-magerun2/issues",
-                "source": "https://github.com/netz98/n98-magerun2-dist/tree/10.0.2"
+                "source": "https://github.com/netz98/n98-magerun2-dist/tree/10.1.0"
             },
-            "time": "2026-08-27T15:28:13+00:00"
+            "time": "2026-10-07T11:41:25+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -26899,16 +26899,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.37.3",
+            "version": "v15.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "5b07b6fccc6f5f34c250136dfbbaabac5a69ec29"
+                "reference": "47e6ba3f27d6e0e9da4c6ae4b6c8875921409e10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/5b07b6fccc6f5f34c250136dfbbaabac5a69ec29",
-                "reference": "5b07b6fccc6f5f34c250136dfbbaabac5a69ec29",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/47e6ba3f27d6e0e9da4c6ae4b6c8875921409e10",
+                "reference": "47e6ba3f27d6e0e9da4c6ae4b6c8875921409e10",
                 "shasum": ""
             },
             "require": {
@@ -26926,8 +26926,8 @@
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "2.2.16",
-                "phpstan/phpstan-phpunit": "2.0.19",
+                "phpstan/phpstan": "2.2.17",
+                "phpstan/phpstan-phpunit": "2.0.21",
                 "phpstan/phpstan-strict-rules": "2.0.12",
                 "phpunit/phpunit": "^9.5 || ^10.5.21 || ^11",
                 "psr/http-message": "^1 || ^2",
@@ -26963,7 +26963,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.37.3"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.38.0"
             },
             "funding": [
                 {
@@ -26975,7 +26975,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-10-03T16:44:55+00:00"
+            "time": "2026-10-06T18:57:32+00:00"
         },
         {
             "name": "wikimedia/less.php",
