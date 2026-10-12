@@ -5277,16 +5277,16 @@
         },
         {
             "name": "magento/ece-tools",
-            "version": "2002.2.14",
+            "version": "2002.2.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/ece-tools.git",
-                "reference": "c8793e0ac88bce08cb21e63a0b1700b64ec96d69"
+                "reference": "38542bbc4ba01bcbc163511b7bd90e69dcbcf4f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/ece-tools/zipball/c8793e0ac88bce08cb21e63a0b1700b64ec96d69",
-                "reference": "c8793e0ac88bce08cb21e63a0b1700b64ec96d69",
+                "url": "https://api.github.com/repos/magento/ece-tools/zipball/38542bbc4ba01bcbc163511b7bd90e69dcbcf4f7",
+                "reference": "38542bbc4ba01bcbc163511b7bd90e69dcbcf4f7",
                 "shasum": ""
             },
             "require": {
@@ -5393,10 +5393,10 @@
             ],
             "description": "Provides tools to build and deploy Magento 2 Enterprise Edition",
             "support": {
-                "source": "https://github.com/magento/ece-tools/tree/2002.2.14",
+                "source": "https://github.com/magento/ece-tools/tree/2002.2.15",
                 "issues": "https://github.com/magento/ece-tools/issues"
             },
-            "time": "2026-09-08T12:52:00+00:00"
+            "time": "2026-10-08T14:03:14+00:00"
         },
         {
             "name": "magento/framework",
@@ -5948,16 +5948,16 @@
         },
         {
             "name": "magento/magento-cloud-docker",
-            "version": "1.4.9",
+            "version": "1.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-cloud-docker.git",
-                "reference": "c32eacfa03954db33932fb7d98e4653656636d9f"
+                "reference": "0f142821d2ac10ea91c0f03178a1a8d938b306c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-cloud-docker/zipball/c32eacfa03954db33932fb7d98e4653656636d9f",
-                "reference": "c32eacfa03954db33932fb7d98e4653656636d9f",
+                "url": "https://api.github.com/repos/magento/magento-cloud-docker/zipball/0f142821d2ac10ea91c0f03178a1a8d938b306c0",
+                "reference": "0f142821d2ac10ea91c0f03178a1a8d938b306c0",
                 "shasum": ""
             },
             "require": {
@@ -6074,10 +6074,10 @@
             ],
             "description": "Magento Cloud Docker",
             "support": {
-                "source": "https://github.com/magento/magento-cloud-docker/tree/1.4.9",
+                "source": "https://github.com/magento/magento-cloud-docker/tree/1.4.10",
                 "issues": "https://github.com/magento/magento-cloud-docker/issues"
             },
-            "time": "2026-07-20T11:54:45+00:00"
+            "time": "2026-10-08T14:03:43+00:00"
         },
         {
             "name": "magento/magento-cloud-patches",
