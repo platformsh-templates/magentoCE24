@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.401.3",
+            "version": "3.401.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7b8541e8a4f09cf4375eeef4de6c638dfb2dadbb"
+                "reference": "4d304660ba59e185e86a17946c6be6ab07bf8546"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7b8541e8a4f09cf4375eeef4de6c638dfb2dadbb",
-                "reference": "7b8541e8a4f09cf4375eeef4de6c638dfb2dadbb",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4d304660ba59e185e86a17946c6be6ab07bf8546",
+                "reference": "4d304660ba59e185e86a17946c6be6ab07bf8546",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.401.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.401.5"
             },
-            "time": "2026-10-19T18:11:47+00:00"
+            "time": "2026-10-21T18:10:10+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -855,16 +855,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.14",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "0c8abba0634f637bd78c4e451981da368d403463"
+                "reference": "2c99cf2e92516985dea4914812b93d9daf01cdd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/0c8abba0634f637bd78c4e451981da368d403463",
-                "reference": "0c8abba0634f637bd78c4e451981da368d403463",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/2c99cf2e92516985dea4914812b93d9daf01cdd6",
+                "reference": "2c99cf2e92516985dea4914812b93d9daf01cdd6",
                 "shasum": ""
             },
             "require": {
@@ -911,7 +911,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.14"
+                "source": "https://github.com/composer/ca-bundle/tree/1.6.0"
             },
             "funding": [
                 {
@@ -923,7 +923,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-21T14:57:29+00:00"
+            "time": "2026-10-20T20:14:05+00:00"
         },
         {
             "name": "composer/class-map-generator",
@@ -2830,7 +2830,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v12.70.0",
+            "version": "v12.70.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -2890,7 +2890,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v12.70.0",
+            "version": "v12.70.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -2936,7 +2936,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v12.70.0",
+            "version": "v12.70.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -2984,7 +2984,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v12.70.0",
+            "version": "v12.70.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -3032,7 +3032,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v12.70.0",
+            "version": "v12.70.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
