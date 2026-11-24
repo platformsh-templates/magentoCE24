@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.405.0",
+            "version": "3.407.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7e8a4a8ed7b812a9ae9fc6e921fe3ee5ed7ce8b0"
+                "reference": "aedc610bbd4c1fb4fe6fde7d3fbf9fb151d463dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7e8a4a8ed7b812a9ae9fc6e921fe3ee5ed7ce8b0",
-                "reference": "7e8a4a8ed7b812a9ae9fc6e921fe3ee5ed7ce8b0",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/aedc610bbd4c1fb4fe6fde7d3fbf9fb151d463dc",
+                "reference": "aedc610bbd4c1fb4fe6fde7d3fbf9fb151d463dc",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.405.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.407.2"
             },
-            "time": "2026-11-18T19:30:10+00:00"
+            "time": "2026-11-23T20:14:00+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -719,16 +719,16 @@
         },
         {
             "name": "colinmollenhour/cache-backend-redis",
-            "version": "1.18.0",
+            "version": "1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis.git",
-                "reference": "1910c45781bae0744d2f92454150e0e98634e815"
+                "reference": "bb2b1600915746afd77ac1c9dcb0024229421602"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colinmollenhour/Cm_Cache_Backend_Redis/zipball/1910c45781bae0744d2f92454150e0e98634e815",
-                "reference": "1910c45781bae0744d2f92454150e0e98634e815",
+                "url": "https://api.github.com/repos/colinmollenhour/Cm_Cache_Backend_Redis/zipball/bb2b1600915746afd77ac1c9dcb0024229421602",
+                "reference": "bb2b1600915746afd77ac1c9dcb0024229421602",
                 "shasum": ""
             },
             "require": {
@@ -758,9 +758,9 @@
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis",
             "support": {
                 "issues": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis/issues",
-                "source": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis/tree/1.18.0"
+                "source": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis/tree/1.18.1"
             },
-            "time": "2026-02-02T07:40:49+00:00"
+            "time": "2026-11-19T16:34:28+00:00"
         },
         {
             "name": "colinmollenhour/credis",
@@ -1683,26 +1683,26 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa"
+                "reference": "9bef884e12278a7b89b64adbfb9379c021d3c102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
-                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/9bef884e12278a7b89b64adbfb9379c021d3c102",
+                "reference": "9bef884e12278a7b89b64adbfb9379c021d3c102",
                 "shasum": ""
             },
             "require": {
-                "doctrine/lexer": "^2.0 || ^3.0",
+                "doctrine/lexer": "^3.0.3",
                 "php": ">=8.1",
-                "symfony/polyfill-intl-idn": "^1.26"
+                "symfony/polyfill-intl-idn": "^1.43"
             },
             "require-dev": {
-                "phpunit/phpunit": "^10.2",
-                "vimeo/psalm": "^5.12"
+                "phpunit/phpunit": "^10.5.67",
+                "vimeo/psalm": "^5.26.1"
             },
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
@@ -1738,7 +1738,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/4.0.4"
+                "source": "https://github.com/egulias/EmailValidator/tree/4.0.5"
             },
             "funding": [
                 {
@@ -1746,7 +1746,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-06T22:45:56+00:00"
+            "time": "2026-11-22T16:52:20+00:00"
         },
         {
             "name": "elastic/transport",
@@ -2109,16 +2109,16 @@
         },
         {
             "name": "fastly/magento2",
-            "version": "1.2.250",
+            "version": "1.2.251",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fastly/fastly-magento2.git",
-                "reference": "7e9fb814c6552faaad05c271a7843f41b1c538c4"
+                "reference": "61a8f1181d3b6c58fe00a0383cddcf1b70430122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/7e9fb814c6552faaad05c271a7843f41b1c538c4",
-                "reference": "7e9fb814c6552faaad05c271a7843f41b1c538c4",
+                "url": "https://api.github.com/repos/fastly/fastly-magento2/zipball/61a8f1181d3b6c58fe00a0383cddcf1b70430122",
+                "reference": "61a8f1181d3b6c58fe00a0383cddcf1b70430122",
                 "shasum": ""
             },
             "require": {
@@ -2147,9 +2147,9 @@
             "description": "Fastly CDN Module for Magento 2.4.x",
             "support": {
                 "issues": "https://github.com/fastly/fastly-magento2/issues",
-                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.250"
+                "source": "https://github.com/fastly/fastly-magento2/tree/1.2.251"
             },
-            "time": "2026-11-16T15:40:11+00:00"
+            "time": "2026-11-19T00:30:21+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -2309,16 +2309,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "9.0.43",
+            "version": "9.0.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "75a801c3dbf9a675e4bc83e0da2c2142fcc5344d"
+                "reference": "fd4063b9954c6ac452832573ab41d91c49ac799c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/75a801c3dbf9a675e4bc83e0da2c2142fcc5344d",
-                "reference": "75a801c3dbf9a675e4bc83e0da2c2142fcc5344d",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/fd4063b9954c6ac452832573ab41d91c49ac799c",
+                "reference": "fd4063b9954c6ac452832573ab41d91c49ac799c",
                 "shasum": ""
             },
             "require": {
@@ -2381,7 +2381,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2026-11-06T10:00:34+00:00"
+            "time": "2026-11-23T08:41:24+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -2499,22 +2499,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.16.3",
+            "version": "7.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "c88a78082757dd5a0c44191651535259fcb6e605"
+                "reference": "f61ba5ea0a55032a55ddbb72cab7d307c1043654"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/c88a78082757dd5a0c44191651535259fcb6e605",
-                "reference": "c88a78082757dd5a0c44191651535259fcb6e605",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f61ba5ea0a55032a55ddbb72cab7d307c1043654",
+                "reference": "f61ba5ea0a55032a55ddbb72cab7d307c1043654",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "guzzlehttp/promises": "^2.6",
-                "guzzlehttp/psr7": "^2.13.4",
+                "guzzlehttp/promises": "^2.6.2",
+                "guzzlehttp/psr7": "^2.13.6",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
@@ -2607,7 +2607,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.16.3"
+                "source": "https://github.com/guzzle/guzzle/tree/7.17.0"
             },
             "funding": [
                 {
@@ -2623,20 +2623,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-17T16:23:09+00:00"
+            "time": "2026-11-22T16:49:11+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.6.0",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154"
+                "reference": "72e93ed2b1f3d8c09d1460c950bd5726face7ccd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/3d88c829bd5f13d13847b39067dbf09a60af2154",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/72e93ed2b1f3d8c09d1460c950bd5726face7ccd",
+                "reference": "72e93ed2b1f3d8c09d1460c950bd5726face7ccd",
                 "shasum": ""
             },
             "require": {
@@ -2691,7 +2691,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.6.0"
+                "source": "https://github.com/guzzle/promises/tree/2.6.2"
             },
             "funding": [
                 {
@@ -2707,20 +2707,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-18T12:46:59+00:00"
+            "time": "2026-11-21T03:45:23+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.13.4",
+            "version": "2.13.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "ad5e3f872690e1151e1171de2963150fc45ea1e3"
+                "reference": "2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/ad5e3f872690e1151e1171de2963150fc45ea1e3",
-                "reference": "ad5e3f872690e1151e1171de2963150fc45ea1e3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2",
+                "reference": "2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2",
                 "shasum": ""
             },
             "require": {
@@ -2810,7 +2810,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.13.4"
+                "source": "https://github.com/guzzle/psr7/tree/2.13.6"
             },
             "funding": [
                 {
@@ -2826,7 +2826,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-17T16:15:51+00:00"
+            "time": "2026-11-21T23:48:40+00:00"
         },
         {
             "name": "illuminate/collections",
@@ -3210,28 +3210,28 @@
         },
         {
             "name": "laminas/laminas-code",
-            "version": "4.19.0",
+            "version": "4.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-code.git",
-                "reference": "e8a9f7ccb07319e59f329dc77e3c70b256ae3a87"
+                "reference": "ea2df2daea112c6432ac62aaa9f8750487c5c211"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/e8a9f7ccb07319e59f329dc77e3c70b256ae3a87",
-                "reference": "e8a9f7ccb07319e59f329dc77e3c70b256ae3a87",
+                "url": "https://api.github.com/repos/laminas/laminas-code/zipball/ea2df2daea112c6432ac62aaa9f8750487c5c211",
+                "reference": "ea2df2daea112c6432ac62aaa9f8750487c5c211",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
+                "php": "~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "require-dev": {
-                "boundwize/structarmed": "^0.18.0",
+                "boundwize/structarmed": "^0.21.0",
                 "ext-phar": "*",
                 "laminas/laminas-coding-standard": "^3.0.0",
                 "laminas/laminas-stdlib": "^3.18.0",
                 "phpunit/phpunit": "^10.5.58",
-                "psalm/plugin-phpunit": "^0.19.0",
+                "psalm/plugin-phpunit": "^0.22.0",
                 "vimeo/psalm": "^6.17"
             },
             "suggest": {
@@ -3268,7 +3268,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-11-09T21:21:04+00:00"
+            "time": "2026-11-19T13:11:05+00:00"
         },
         {
             "name": "laminas/laminas-config",
@@ -3636,35 +3636,36 @@
         },
         {
             "name": "laminas/laminas-filter",
-            "version": "2.42.0",
+            "version": "2.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-filter.git",
-                "reference": "985d27bd42daf51b415ce1ee889e0978cc1e59ed"
+                "reference": "c642cb8a3c7af900a38332e1751e5e197d0ba9ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/985d27bd42daf51b415ce1ee889e0978cc1e59ed",
-                "reference": "985d27bd42daf51b415ce1ee889e0978cc1e59ed",
+                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/c642cb8a3c7af900a38332e1751e5e197d0ba9ec",
+                "reference": "c642cb8a3c7af900a38332e1751e5e197d0ba9ec",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "laminas/laminas-servicemanager": "^3.21.0",
                 "laminas/laminas-stdlib": "^3.19.0",
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
+                "php": "~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "conflict": {
                 "laminas/laminas-validator": "<2.10.1",
                 "zendframework/zend-filter": "*"
             },
             "require-dev": {
+                "laminas/internal-tooling": "^1.3.0",
                 "laminas/laminas-coding-standard": "^3.1",
                 "laminas/laminas-crypt": "^3.12",
-                "laminas/laminas-i18n": "^2.30.0",
-                "laminas/laminas-uri": "^2.13",
-                "pear/archive_tar": "^1.6.0",
-                "phpunit/phpunit": "^10.5.58",
+                "laminas/laminas-i18n": "^2.33.0",
+                "laminas/laminas-uri": "^2.14",
+                "pear/archive_tar": "^1.6.1",
+                "phpunit/phpunit": "^10.5.67",
                 "psalm/plugin-phpunit": "^0.19.0",
                 "psr/http-factory": "^1.1.0",
                 "vimeo/psalm": "^5.26.1"
@@ -3707,11 +3708,11 @@
             },
             "funding": [
                 {
-                    "url": "https://funding.communitybridge.org/projects/laminas-project",
-                    "type": "community_bridge"
+                    "url": "https://crowdfunding.linuxfoundation.org/initiatives/laminas-project",
+                    "type": "custom"
                 }
             ],
-            "time": "2025-10-13T15:44:52+00:00"
+            "time": "2026-11-19T12:20:46+00:00"
         },
         {
             "name": "laminas/laminas-http",
@@ -4257,21 +4258,21 @@
         },
         {
             "name": "laminas/laminas-servicemanager",
-            "version": "3.24.0",
+            "version": "3.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-servicemanager.git",
-                "reference": "b172a0df568bf37ebdfb3658263156eefe3c1e8c"
+                "reference": "4f482c7e98864fabf67666cb4699ba7c6ec48adb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/b172a0df568bf37ebdfb3658263156eefe3c1e8c",
-                "reference": "b172a0df568bf37ebdfb3658263156eefe3c1e8c",
+                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/4f482c7e98864fabf67666cb4699ba7c6ec48adb",
+                "reference": "4f482c7e98864fabf67666cb4699ba7c6ec48adb",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-stdlib": "^3.19",
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+                "php": "~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0",
                 "psr/container": "^1.0"
             },
             "conflict": {
@@ -4288,13 +4289,13 @@
             },
             "require-dev": {
                 "composer/package-versions-deprecated": "^1.11.99.5",
-                "friendsofphp/proxy-manager-lts": "^1.0.18",
-                "laminas/laminas-code": "^4.16.0",
+                "friendsofphp/proxy-manager-lts": "^1.0.19",
+                "laminas/laminas-code": "^4.19.0",
                 "laminas/laminas-coding-standard": "~2.5.0",
-                "laminas/laminas-container-config-test": "^0.8",
+                "laminas/laminas-container-config-test": "^1.1",
                 "mikey179/vfsstream": "^1.6.12",
-                "phpbench/phpbench": "^1.4.1",
-                "phpunit/phpunit": "^10.5.58",
+                "phpbench/phpbench": "^1.7.0",
+                "phpunit/phpunit": "^10.5.67",
                 "psalm/plugin-phpunit": "^0.18.4",
                 "vimeo/psalm": "^5.26.1"
             },
@@ -4339,11 +4340,11 @@
             },
             "funding": [
                 {
-                    "url": "https://funding.communitybridge.org/projects/laminas-project",
-                    "type": "community_bridge"
+                    "url": "https://crowdfunding.linuxfoundation.org/initiatives/laminas-project",
+                    "type": "custom"
                 }
             ],
-            "time": "2025-10-14T09:03:51+00:00"
+            "time": "2026-11-19T12:19:27+00:00"
         },
         {
             "name": "laminas/laminas-session",
@@ -5190,8 +5191,8 @@
             "version": "1.10.2",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-composer-1.10.2.0.zip",
-                "shasum": "017c893ff82c2c49514842ee6029bf6ab9012dfa"
+                "url": "https://mirror.mage-os.org/packages/magento/composer-1.10.2.zip",
+                "shasum": "c0a570e9ebffbfd25d8e08c512d2f315844f8d72"
             },
             "require": {
                 "composer/composer": "^2.1.13",
@@ -5258,8 +5259,8 @@
             "version": "2.0.6",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-composer-root-update-plugin-2.0.6.0.zip",
-                "shasum": "054cc1b15adee998e45619721150138e1f439423"
+                "url": "https://mirror.mage-os.org/packages/magento/composer-root-update-plugin-2.0.6.zip",
+                "shasum": "7a3e26f5a41d475c101c8d90d32926899b6f2030"
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
@@ -9359,11 +9360,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.6.0",
+            "version": "103.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.6.0.0.zip",
-                "shasum": "692ab4051e16cc3e403e0ea1255396a8a893bc95"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-data-exporter-103.6.1.0.zip",
+                "shasum": "7f06af5726a399bb5b6a34289953ae64bf65b2f2"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -14920,11 +14921,11 @@
         },
         {
             "name": "magento/module-payment-services-base",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-base-2.17.0.0.zip",
-                "shasum": "9ea9ac7c730eea5fa4f8226a7b3f2abec5e8018d"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-base-2.17.1.0.zip",
+                "shasum": "05996e9491f90965e83fb5e8f4b630c702e2ea95"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -14932,10 +14933,10 @@
                 "magento/module-config": ">=101.2.4 <102.0.0",
                 "magento/module-directory": ">=100.4.4 <101.0.0",
                 "magento/module-payment": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-dashboard": "2.17.0",
-                "magento/module-payment-services-paypal": "2.17.0",
+                "magento/module-payment-services-dashboard": "2.17.1",
+                "magento/module-payment-services-paypal": "2.17.1",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
-                "magento/module-service-proxy": "2.17.0",
+                "magento/module-service-proxy": "2.17.1",
                 "magento/module-services-id": "^3.2.0",
                 "magento/module-services-id-graph-ql-server": "^1.1.0",
                 "magento/module-services-id-layout": "^1.1.0",
@@ -14964,20 +14965,20 @@
         },
         {
             "name": "magento/module-payment-services-dashboard",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-dashboard-2.17.0.0.zip",
-                "shasum": "af67a530090183024eb4b38b1c457e228bb8906b"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-dashboard-2.17.1.0.zip",
+                "shasum": "dd628b398e7f0003da9db6d543d53e35e1d046be"
             },
             "require": {
                 "ext-json": "*",
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-backend": ">=102.0.4 <103.0.0",
                 "magento/module-config": ">=101.2.4 <102.0.0",
-                "magento/module-payment-services-base": "2.17.0",
-                "magento/module-payment-services-paypal": "2.17.0",
-                "magento/module-service-proxy": "2.17.0",
+                "magento/module-payment-services-base": "2.17.1",
+                "magento/module-payment-services-paypal": "2.17.1",
+                "magento/module-service-proxy": "2.17.1",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0"
             },
@@ -14998,11 +14999,11 @@
         },
         {
             "name": "magento/module-payment-services-paypal",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-2.17.0.0.zip",
-                "shasum": "814b50daaebc4759e2129052f0786f88a2b20234"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-2.17.1.0.zip",
+                "shasum": "9340aac65088c991d80274619f4c368b21cba484"
             },
             "require": {
                 "giggsey/libphonenumber-for-php": "^9.0",
@@ -15020,12 +15021,12 @@
                 "magento/module-instant-purchase": ">=100.4.3 <101.0.0",
                 "magento/module-integration": ">=100.4.4 <101.0.0",
                 "magento/module-payment": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-base": "2.17.0",
+                "magento/module-payment-services-base": "2.17.1",
                 "magento/module-query-xml": "^103.0.3",
                 "magento/module-quote": ">=101.2.4 <102.0.0",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
                 "magento/module-sales-rule": ">=101.2.4 <102.0.0",
-                "magento/module-service-proxy": "2.17.0",
+                "magento/module-service-proxy": "2.17.1",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "magento/module-tax": ">=100.4.4 <101.0.0",
                 "magento/module-theme": ">=101.1.4 <102.0.0",
@@ -15050,17 +15051,17 @@
         },
         {
             "name": "magento/module-payment-services-paypal-graph-ql",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-graph-ql-2.17.0.0.zip",
-                "shasum": "1da9b9581b4ddb74574fbecabfe2efecef19ce6d"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-paypal-graph-ql-2.17.1.0.zip",
+                "shasum": "293040c60369d8085c6859a40d35bea9d52054a7"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-customer": ">=103.0.4 <104.0.0",
                 "magento/module-graph-ql": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-paypal": "2.17.0",
+                "magento/module-payment-services-paypal": "2.17.1",
                 "magento/module-quote": ">=101.2.4 <102.0.0",
                 "magento/module-quote-graph-ql": ">=100.4.4 <101.0.0",
                 "magento/module-sales": ">=103.0.4 <104.0.0",
@@ -15085,20 +15086,20 @@
         },
         {
             "name": "magento/module-payment-services-saas-export",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-saas-export-2.17.0.0.zip",
-                "shasum": "6a49aaa81e76673ccb7f75d1fe928a3b2c314b94"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-payment-services-saas-export-2.17.1.0.zip",
+                "shasum": "02da4db27b726f8034196a026e3aadb2e3bd5e6f"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-data-exporter": "^103.0.3",
-                "magento/module-payment-services-base": "2.17.0",
+                "magento/module-payment-services-base": "2.17.1",
                 "magento/module-saas-common": "^103.0.3",
-                "magento/module-sales-data-exporter": "2.17.0",
+                "magento/module-sales-data-exporter": "2.17.1",
                 "magento/module-services-id": "^3.2.0",
-                "magento/module-store-data-exporter": "2.17.0",
+                "magento/module-store-data-exporter": "2.17.1",
                 "magento/services-connector": "^1.3.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0"
             },
@@ -15352,11 +15353,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.6.0",
+            "version": "103.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.6.0.0.zip",
-                "shasum": "4e0fcbccda1adb149741350666d85b454856f45d"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-query-xml-103.6.1.0.zip",
+                "shasum": "90cd2be4d1a779f467f858218a42c292c6595a66"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16739,11 +16740,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.6.0",
+            "version": "103.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.6.0.0.zip",
-                "shasum": "b807807f7003e3ffc0076c6cd76541d8530c5d84"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-saas-common-103.6.1.0.zip",
+                "shasum": "4db83072877993794fb6fb1ef21965ba751623a8"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16860,11 +16861,11 @@
         },
         {
             "name": "magento/module-sales-data-exporter",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-sales-data-exporter-2.17.0.0.zip",
-                "shasum": "107a52c6a908e07a78e98b85bb3039202810a564"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-sales-data-exporter-2.17.1.0.zip",
+                "shasum": "f40a7faa8dd979bdd1a170c9b0d6dd931c9c04b7"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -17260,17 +17261,17 @@
         },
         {
             "name": "magento/module-service-proxy",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-service-proxy-2.17.0.0.zip",
-                "shasum": "245aefa19f550757f1f1113f303b1e81f9b210e6"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-service-proxy-2.17.1.0.zip",
+                "shasum": "bba441031dcc07fe38a541c5306f8c5ce07faa7c"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
                 "magento/module-backend": ">=102.0.4 <103.0.0",
                 "magento/module-page-cache": ">=100.4.4 <101.0.0",
-                "magento/module-payment-services-paypal": "2.17.0",
+                "magento/module-payment-services-paypal": "2.17.1",
                 "magento/module-store": ">=101.1.4 <102.0.0",
                 "php": "~8.1.0||~8.2.0||~8.3.0||~8.4.0||~8.5.0"
             },
@@ -17538,11 +17539,11 @@
         },
         {
             "name": "magento/module-store-data-exporter",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-module-store-data-exporter-2.17.0.0.zip",
-                "shasum": "c10c84b7c899db9a38a8f1b1aec8e0548de22219"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-module-store-data-exporter-2.17.1.0.zip",
+                "shasum": "6abfba9b412f10de2366544c31a57ad2dd2df2aa"
             },
             "require": {
                 "magento/framework": ">=103.0.4 <104.0.0",
@@ -18711,22 +18712,22 @@
         },
         {
             "name": "magento/payment-services",
-            "version": "2.17.0",
+            "version": "2.17.1",
             "dist": {
                 "type": "zip",
-                "url": "https://mirror.mage-os.org/packages/additional/magento-payment-services-2.17.0.0.zip",
-                "shasum": "a4739353d64f41f3116ac2975faa2ac0826c3178"
+                "url": "https://mirror.mage-os.org/packages/additional/magento-payment-services-2.17.1.0.zip",
+                "shasum": "a6e61d82d1258542618e2a87521a8e7fa4e8749f"
             },
             "require": {
                 "giggsey/libphonenumber-for-php": "^9.0",
-                "magento/module-payment-services-base": "2.17.0",
-                "magento/module-payment-services-dashboard": "2.17.0",
-                "magento/module-payment-services-paypal": "2.17.0",
-                "magento/module-payment-services-paypal-graph-ql": "2.17.0",
-                "magento/module-payment-services-saas-export": "2.17.0",
-                "magento/module-sales-data-exporter": "2.17.0",
-                "magento/module-service-proxy": "2.17.0",
-                "magento/module-store-data-exporter": "2.17.0",
+                "magento/module-payment-services-base": "2.17.1",
+                "magento/module-payment-services-dashboard": "2.17.1",
+                "magento/module-payment-services-paypal": "2.17.1",
+                "magento/module-payment-services-paypal-graph-ql": "2.17.1",
+                "magento/module-payment-services-saas-export": "2.17.1",
+                "magento/module-sales-data-exporter": "2.17.1",
+                "magento/module-service-proxy": "2.17.1",
+                "magento/module-store-data-exporter": "2.17.1",
                 "magento/services-id": "^3.2.0"
             },
             "type": "metapackage",
@@ -20178,16 +20179,16 @@
         },
         {
             "name": "open-telemetry/api",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opentelemetry-php/api.git",
-                "reference": "bc169d9ecd11858e941657770dc708c6a15fc5f4"
+                "reference": "b0884741f3f9d5dc60477784c8671bd2acef4ceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opentelemetry-php/api/zipball/bc169d9ecd11858e941657770dc708c6a15fc5f4",
-                "reference": "bc169d9ecd11858e941657770dc708c6a15fc5f4",
+                "url": "https://api.github.com/repos/opentelemetry-php/api/zipball/b0884741f3f9d5dc60477784c8671bd2acef4ceb",
+                "reference": "b0884741f3f9d5dc60477784c8671bd2acef4ceb",
                 "shasum": ""
             },
             "require": {
@@ -20214,7 +20215,7 @@
                     ]
                 },
                 "branch-alias": {
-                    "dev-main": "1.11.x-dev"
+                    "dev-main": "1.12.x-dev"
                 }
             },
             "autoload": {
@@ -20251,7 +20252,7 @@
                 "issues": "https://github.com/open-telemetry/opentelemetry-php/issues",
                 "source": "https://github.com/open-telemetry/opentelemetry-php"
             },
-            "time": "2026-11-05T11:54:49+00:00"
+            "time": "2026-11-19T08:10:15+00:00"
         },
         {
             "name": "open-telemetry/context",
@@ -21569,16 +21570,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.58",
+            "version": "3.0.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "91f3a6436bb84040ac0cf49e761977f17d16a39b"
+                "reference": "527959f6f26591d532c07cf1c426585ef7279fa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/91f3a6436bb84040ac0cf49e761977f17d16a39b",
-                "reference": "91f3a6436bb84040ac0cf49e761977f17d16a39b",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/527959f6f26591d532c07cf1c426585ef7279fa9",
+                "reference": "527959f6f26591d532c07cf1c426585ef7279fa9",
                 "shasum": ""
             },
             "require": {
@@ -21659,7 +21660,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.58"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.59"
             },
             "funding": [
                 {
@@ -21675,7 +21676,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-02T10:45:48+00:00"
+            "time": "2026-11-20T07:39:42+00:00"
         },
         {
             "name": "predis/predis",
@@ -26590,16 +26591,16 @@
         },
         {
             "name": "web-token/jwt-framework",
-            "version": "4.2.7",
+            "version": "4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/web-token/jwt-framework.git",
-                "reference": "d3215780eb033c7e625b94c68f9eb904a0f5ed9b"
+                "reference": "284c2e21803f8f1d98776f903be7600190ca8c8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/d3215780eb033c7e625b94c68f9eb904a0f5ed9b",
-                "reference": "d3215780eb033c7e625b94c68f9eb904a0f5ed9b",
+                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/284c2e21803f8f1d98776f903be7600190ca8c8c",
+                "reference": "284c2e21803f8f1d98776f903be7600190ca8c8c",
                 "shasum": ""
             },
             "require": {
@@ -26692,7 +26693,7 @@
             ],
             "support": {
                 "issues": "https://github.com/web-token/jwt-framework/issues",
-                "source": "https://github.com/web-token/jwt-framework/tree/4.2.7"
+                "source": "https://github.com/web-token/jwt-framework/tree/4.2.8"
             },
             "funding": [
                 {
@@ -26704,7 +26705,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-11-08T15:03:43+00:00"
+            "time": "2026-11-23T20:47:30+00:00"
         },
         {
             "name": "webimpress/safe-writer",
